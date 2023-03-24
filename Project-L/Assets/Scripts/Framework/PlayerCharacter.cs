@@ -57,7 +57,7 @@ public class PlayerCharacter : Entity
             return;
         }
 
-        base.transform.rotation = Quaternion.Slerp(base.transform.rotation, LookPosition, Time.deltaTime * 4f);
+        base.transform.rotation = Quaternion.Slerp(base.transform.rotation, LookPosition, Time.deltaTime * 20f);
     }
 
     public void Move()
