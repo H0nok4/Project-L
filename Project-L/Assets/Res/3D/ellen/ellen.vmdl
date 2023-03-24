@@ -1,0 +1,3026 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc32:version{c5dcef98-b629-46ab-88e3-a17c005c935e} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "attach_hitloc"
+						parent_bone = "12_joint_Torso2"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "attach_attack1"
+						parent_bone = "72_joint_LeftWrist"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "attach_attack2"
+						parent_bone = "36_joint_RightWrist"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "95_joint_HipMaster"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -12.130714, -10.19754, -9.168931 ]
+								hitbox_maxs = [ 12.240953, 7.510201, 8.749684 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "11_joint_Torso"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -9.471521, 0.99192, -7.980597 ]
+								hitbox_maxs = [ 9.58176, 31.131042, 8.749615 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "12_joint_Torso2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -12.500257, -7.775238, -17.763887 ]
+								hitbox_maxs = [ 12.610496, 21.90918, 6.777346 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "24_joint_RightShoulder"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -12.010966, -10.588669, -4.933531 ]
+								hitbox_maxs = [ 0.81255, 3.655083, 7.075893 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "26_joint_RightArm"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -10.950949, -10.765808, -7.354896 ]
+								hitbox_maxs = [ 0.561214, 4.632011, 6.412839 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "60_joint_LeftShoulder"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.702311, -10.588669, -4.933531 ]
+								hitbox_maxs = [ 12.121205, 3.655083, 7.075893 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "313_joint_ribonmigihimo1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -10.18992, -21.360878, -19.726341 ]
+								hitbox_maxs = [ 4.659786, 0.850784, 1.34536 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "323_joint_ribonhidarihimo1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -4.549547, -21.360878, -19.726364 ]
+								hitbox_maxs = [ 10.300161, 0.850784, 1.345337 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "13_joint_Neck"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -4.391965, -3.681946, -4.054027 ]
+								hitbox_maxs = [ 4.502203, 3.636246, 7.1487 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "345_joint_body"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.074867, -3.424034, -4.364175 ]
+								hitbox_maxs = [ 5.18511, 11.607834, 2.959052 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "62_joint_LeftArm"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.450975, -10.765808, -7.354896 ]
+								hitbox_maxs = [ 11.06119, 4.632011, 6.412839 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "314_joint_ribonmigihimo2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -8.336657, -15.828983, -11.850489 ]
+								hitbox_maxs = [ 6.20304, 8.651245, 8.130651 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "324_joint_ribonhidarihimo2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -6.092801, -15.828983, -11.850473 ]
+								hitbox_maxs = [ 8.446898, 8.651245, 8.130667 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "190_joint_hisashisuka_toA1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.576437, -7.571381, -1.543278 ]
+								hitbox_maxs = [ 5.686675, -0.43631, 2.773415 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "196_joint_LeftSkirtB1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.788177, -7.426636, -1.746591 ]
+								hitbox_maxs = [ 6.646211, -0.55751, 4.199328 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "202_joint_LeftSkirtC1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 0.851321, -5.938896, -1.598308 ]
+								hitbox_maxs = [ 5.947188, -1.051704, 3.599606 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "208_joint_LeftSkirtD1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 2.768747, -5.589676, -0.733256 ]
+								hitbox_maxs = [ 5.116675, -3.783691, -0.415294 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "214_joint_LeftSkirtE1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 2.997763, -5.584923, -1.80673 ]
+								hitbox_maxs = [ 5.321117, -3.712761, -0.637863 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "220_joint_LeftSkirtF1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 0.847675, -5.844963, -2.590096 ]
+								hitbox_maxs = [ 5.457031, -1.932777, 0.838997 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "226_joint_LeftSkirtG1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 1.666193, -5.861282, -4.04802 ]
+								hitbox_maxs = [ 5.870659, -1.829895, 2.206348 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "232_joint_LeftSkirtH1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 1.609752, -5.917702, -4.945707 ]
+								hitbox_maxs = [ 6.181813, -1.721031, -1.048012 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "238_joint_LeftSkirtI1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 0.724947, -5.90287, -6.635306 ]
+								hitbox_maxs = [ 6.421677, -1.642708, -0.901881 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "244_joint_LeftSkirtJ1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.784108, -6.480103, -6.015275 ]
+								hitbox_maxs = [ 3.46085, -1.801865, -1.324358 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "250_joint_hisashisuka_toK1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.104911, -6.957619, -5.916231 ]
+								hitbox_maxs = [ 3.215146, -2.40966, -0.921403 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "256_joint_RightSkirtB1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -7.330089, -7.426636, -1.746589 ]
+								hitbox_maxs = [ 2.898415, -0.55751, 4.19933 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "262_joint_RightSkirtC1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.83695, -5.938896, -1.598307 ]
+								hitbox_maxs = [ -0.741082, -1.051704, 3.599607 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "268_joint_RightSkirtD1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.006439, -5.589676, -0.733255 ]
+								hitbox_maxs = [ -2.658511, -3.783691, -0.415293 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "274_joint_RightSkirtE1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.210879, -5.584923, -1.806727 ]
+								hitbox_maxs = [ -2.887524, -3.712761, -0.637861 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "280_joint_RightSkirtF1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.346793, -5.844963, -2.590094 ]
+								hitbox_maxs = [ -0.737437, -1.932777, 0.838998 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "286_joint_RightSkirtG1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.760422, -5.861282, -4.048018 ]
+								hitbox_maxs = [ -1.555956, -1.829895, 2.20635 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "292_joint_RightSkirtH1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -6.071579, -5.917702, -4.945706 ]
+								hitbox_maxs = [ -1.499516, -1.721031, -1.048011 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "298_joint_RightSkirtI1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -6.311441, -6.603218, -7.106313 ]
+								hitbox_maxs = [ 2.321853, -1.642708, -0.90188 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "14_joint_Head"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -22.761183, -2.884235, -24.400269 ]
+								hitbox_maxs = [ 16.008642, 22.64752, 11.168926 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "31_joint_RightElbow"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.782072, -2.673241, -2.375345 ]
+								hitbox_maxs = [ 1.68704, 2.354385, 2.538178 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "349_joint_tail1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.838308, -0.586456, -5.758332 ]
+								hitbox_maxs = [ 0.948547, 0.621925, 0.428154 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "67_joint_LeftElbow"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.57679, -2.673241, -2.375343 ]
+								hitbox_maxs = [ 1.892332, 2.354401, 2.538178 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "315_joint_ribonmigihimo3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -9.057786, -15.273766, -12.312473 ]
+								hitbox_maxs = [ 3.320106, -1.121948, -1.503393 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "325_joint_ribonhidarihimo3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.209867, -15.273766, -12.312443 ]
+								hitbox_maxs = [ 9.168027, -1.121948, -1.503363 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "191_joint_hisashisuka_toA2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -7.421337, -5.454788, -0.672212 ]
+								hitbox_maxs = [ 7.531578, 1.633347, 5.595939 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "197_joint_LeftSkirtB2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.407149, -6.633072, -1.440679 ]
+								hitbox_maxs = [ 6.450626, 1.327545, 5.954485 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "203_joint_LeftSkirtC2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.578718, -6.336563, -2.003942 ]
+								hitbox_maxs = [ 7.579637, 0.990982, 6.862708 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "209_joint_LeftSkirtD2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.041232, -6.061096, -2.117837 ]
+								hitbox_maxs = [ 7.005628, 1.028198, 6.012366 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "215_joint_LeftSkirtE2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.10721, -5.86557, -2.45852 ]
+								hitbox_maxs = [ 7.317885, 0.931061, 5.145319 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "221_joint_LeftSkirtF2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.256124, -5.930038, -3.914861 ]
+								hitbox_maxs = [ 7.608573, 0.904846, 2.646313 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "227_joint_LeftSkirtG2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.441994, -5.866791, -5.467214 ]
+								hitbox_maxs = [ 7.639123, 1.033585, 2.297822 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "233_joint_LeftSkirtH2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.202916, -5.756485, -6.539174 ]
+								hitbox_maxs = [ 6.717574, 0.977524, 1.711383 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "239_joint_LeftSkirtI2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.540147, -5.87001, -6.948496 ]
+								hitbox_maxs = [ 6.525317, 0.942581, 2.288136 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "245_joint_LeftSkirtJ2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -4.173571, -6.695221, -5.880433 ]
+								hitbox_maxs = [ 5.917736, 1.007828, 1.118421 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "251_joint_hisashisuka_toK2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.513967, -5.754852, -5.893189 ]
+								hitbox_maxs = [ 5.624203, 1.682724, 0.41052 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "257_joint_RightSkirtB2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -6.340386, -6.633072, -1.440677 ]
+								hitbox_maxs = [ 5.517388, 1.327545, 5.954487 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "263_joint_RightSkirtC2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -7.469396, -6.336563, -1.569328 ]
+								hitbox_maxs = [ 2.688957, 0.859619, 6.862709 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "269_joint_RightSkirtD2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -6.895387, -6.061096, -2.117834 ]
+								hitbox_maxs = [ 1.151471, 1.028198, 6.012369 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "275_joint_RightSkirtE2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -7.207644, -5.86557, -2.458516 ]
+								hitbox_maxs = [ 0.217449, 0.931061, 5.145322 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "281_joint_RightSkirtF2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -7.498332, -5.930038, -3.914859 ]
+								hitbox_maxs = [ 0.366364, 0.904846, 2.646315 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "287_joint_RightSkirtG2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -7.528884, -5.866791, -5.46721 ]
+								hitbox_maxs = [ 0.552231, 1.033585, 2.297827 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "293_joint_RightSkirtH2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -6.607336, -5.756485, -6.539171 ]
+								hitbox_maxs = [ 1.313152, 0.977524, 1.711386 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "299_joint_RightSkirtI2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -6.415082, -6.96225, -7.334229 ]
+								hitbox_maxs = [ 8.19681, 0.942581, 2.288136 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "153_joint_RightBackHair4_1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -6.938251, -15.988617, -6.856099 ]
+								hitbox_maxs = [ 2.560247, -0.246552, 1.700729 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "172_joint_LeftBackHair4_1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.450008, -15.988617, -6.856099 ]
+								hitbox_maxs = [ 7.048491, -0.246552, 1.700729 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "36_joint_RightWrist"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.394344, -2.992378, -3.050159 ]
+								hitbox_maxs = [ 1.183773, 1.272438, 2.894068 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "350_joint_tail2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.652666, -0.578712, -2.82867 ]
+								hitbox_maxs = [ 0.762901, 0.577576, -0.147116 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "72_joint_LeftWrist"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.073505, -2.992378, -3.050155 ]
+								hitbox_maxs = [ 5.504608, 1.272438, 2.89407 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "316_joint_ribonmigihimo4"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -9.99901, -15.196201, -9.640379 ]
+								hitbox_maxs = [ 3.423752, -2.724518, -0.484888 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "326_joint_ribonhidarihimo4"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.313513, -15.196201, -9.640409 ]
+								hitbox_maxs = [ 10.109251, -2.724518, -0.484919 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "97_joint_RightHip"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.998521, -33.63105, -5.427245 ]
+								hitbox_maxs = [ 6.149001, 5.133507, 8.490735 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "102_joint_LeftHip"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -6.03876, -33.631042, -5.427244 ]
+								hitbox_maxs = [ 6.108762, 5.133514, 8.490736 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "192_joint_hisashisuka_toA3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -9.477777, -5.730675, 0.111082 ]
+								hitbox_maxs = [ 9.588019, 1.389503, 6.109374 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "198_joint_LeftSkirtB3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -8.475239, -6.449135, -1.819131 ]
+								hitbox_maxs = [ 6.532792, 0.972649, 4.961895 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "204_joint_LeftSkirtC3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.684988, -5.936317, -2.528912 ]
+								hitbox_maxs = [ 9.139169, 1.694107, 7.091333 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "210_joint_LeftSkirtD3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.867201, -6.454788, -3.659347 ]
+								hitbox_maxs = [ 6.490995, 0.969208, 6.206951 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "216_joint_LeftSkirtE3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.00791, -5.923096, -4.746861 ]
+								hitbox_maxs = [ 6.984879, 1.257248, 7.15269 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "222_joint_LeftSkirtF3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.71122, -6.131104, -5.001305 ]
+								hitbox_maxs = [ 6.203562, 0.979996, 4.986995 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "228_joint_LeftSkirtG3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.77598, -5.929184, -7.109106 ]
+								hitbox_maxs = [ 8.021746, 1.323944, 3.670103 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "234_joint_LeftSkirtH3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.929591, -6.337524, -6.614446 ]
+								hitbox_maxs = [ 6.873362, 0.926559, 2.965646 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "240_joint_LeftSkirtI3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.536154, -6.028465, -6.937313 ]
+								hitbox_maxs = [ 8.421951, 1.302582, 2.415272 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "246_joint_LeftSkirtJ3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -6.011774, -6.879211, -5.103077 ]
+								hitbox_maxs = [ 6.230867, 0.922562, 1.348348 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "252_joint_hisashisuka_toK3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -7.509642, -5.719894, -5.386894 ]
+								hitbox_maxs = [ 7.619878, 1.903511, -0.268384 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "258_joint_RightSkirtB3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -6.422551, -6.449135, -1.819127 ]
+								hitbox_maxs = [ 8.58548, 0.972649, 4.961899 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "264_joint_RightSkirtC3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -9.028925, -5.936317, -2.528911 ]
+								hitbox_maxs = [ 3.79523, 1.694107, 7.091335 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "270_joint_RightSkirtD3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -6.380753, -6.454788, -3.659342 ]
+								hitbox_maxs = [ 2.977444, 0.969208, 6.206957 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "276_joint_RightSkirtE3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -6.874634, -5.923096, -4.746855 ]
+								hitbox_maxs = [ 0.118155, 1.257248, 7.152696 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "282_joint_RightSkirtF3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -6.093317, -6.131104, -5.001302 ]
+								hitbox_maxs = [ 0.821465, 0.979996, 4.986999 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "288_joint_RightSkirtG3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -7.911505, -5.929184, -7.1091 ]
+								hitbox_maxs = [ 0.886221, 1.323944, 3.67011 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "294_joint_RightSkirtH3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -6.763124, -6.337524, -6.614439 ]
+								hitbox_maxs = [ 3.039826, 0.926559, 2.965651 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "300_joint_RightSkirtI3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -8.311714, -6.902924, -7.632963 ]
+								hitbox_maxs = [ 11.328751, 1.302582, 2.415273 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "20_joint_Tongue1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.710909, -0.542969, -1.777328 ]
+								hitbox_maxs = [ 1.710909, 1.721474, -0.121205 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "129_joint_LeftFrontHair2_1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.21908, -7.745544, -2.974273 ]
+								hitbox_maxs = [ 1.154028, -0.87854, 2.975831 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "144_joint_RightBackHair1_1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -6.135207, -18.426933, -14.098382 ]
+								hitbox_maxs = [ 2.757513, 0.423676, 0.119079 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "147_joint_RightBackHair2_1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.538696, -20.5961, -9.837456 ]
+								hitbox_maxs = [ 1.825601, -2.538055, 1.115263 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "150_joint_RightBackHair3_1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.10943, -17.219269, -11.482824 ]
+								hitbox_maxs = [ 3.525829, -0.9552, 3.264349 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "154_joint_RightBackHair4_2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -8.781378, -22.34539, -7.011503 ]
+								hitbox_maxs = [ 3.675485, 1.664978, 2.711111 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "157_joint_RightBackHair5_1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -14.168905, -20.864983, -15.618726 ]
+								hitbox_maxs = [ 2.708067, 0.865479, 5.772048 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "160_joint_RightBackHair6_1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.540384, -19.536583, -10.936759 ]
+								hitbox_maxs = [ 2.140048, -0.883331, -0.118608 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "163_joint_LeftBackHair1_1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.647273, -18.97094, -13.81038 ]
+								hitbox_maxs = [ 6.245446, -0.120331, 0.407081 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "166_joint_LeftBackHair2_1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.715362, -20.5961, -9.837456 ]
+								hitbox_maxs = [ 5.648935, -2.538055, 1.115263 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "169_joint_LeftBackHair3_1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.415589, -17.219269, -11.482824 ]
+								hitbox_maxs = [ 5.219669, -0.9552, 3.264349 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "173_joint_LeftBackHair4_2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.565245, -22.34539, -7.011503 ]
+								hitbox_maxs = [ 8.891619, 1.664978, 2.711111 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "176_joint_LeftBackHair5_1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.597828, -20.864983, -15.618726 ]
+								hitbox_maxs = [ 14.279146, 0.865479, 5.772048 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "179_joint_LeftBackHair6_1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.029809, -19.536583, -10.936759 ]
+								hitbox_maxs = [ 3.650624, -0.883331, -0.118608 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "43_joint_RightPinky1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.052509, -1.322189, -0.59344 ]
+								hitbox_maxs = [ 0.032528, 0.265594, 0.514037 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "47_joint_RightRing1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.778088, -1.797066, -0.653101 ]
+								hitbox_maxs = [ 0.035629, 0.297226, 0.530424 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "51_joint_RightMiddle1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.74371, -1.759293, -0.64029 ]
+								hitbox_maxs = [ 0.054535, 0.26252, 0.560108 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "55_joint_RightIndex1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.530872, -1.546631, -0.641596 ]
+								hitbox_maxs = [ 0.026821, 0.320976, 0.450639 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "351_joint_tail3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.605879, -0.578712, -2.921123 ]
+								hitbox_maxs = [ 0.716112, 0.577576, 1.001647 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "79_joint_LeftPinky1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 0.077721, -1.322182, -0.593439 ]
+								hitbox_maxs = [ 2.16275, 0.265594, 0.514038 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "83_joint_LeftRing1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 0.074619, -1.797035, -0.653101 ]
+								hitbox_maxs = [ 2.888344, 0.297226, 0.530424 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "87_joint_LeftMiddle1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 0.055729, -1.759338, -0.640287 ]
+								hitbox_maxs = [ 2.853981, 0.262451, 0.560111 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "91_joint_LeftIndex1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 0.083439, -1.5467, -0.641595 ]
+								hitbox_maxs = [ 2.64114, 0.3209, 0.45064 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "317_joint_ribonmigihimo5"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -9.570442, -15.272377, -8.637413 ]
+								hitbox_maxs = [ 4.809488, -3.412296, 0.529751 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "327_joint_ribonhidarihimo5"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -4.699249, -15.272377, -8.63739 ]
+								hitbox_maxs = [ 9.680683, -3.412296, 0.529774 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "98_joint_RightKnee"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -6.047303, -46.14624, -10.046169 ]
+								hitbox_maxs = [ 3.435097, 6.00185, 3.989538 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "103_joint_LeftKnee"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.324898, -46.083103, -10.047812 ]
+								hitbox_maxs = [ 6.157501, 6.001842, 3.989461 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "193_joint_hisashisuka_toA4"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -9.944712, -16.406788, 0.271053 ]
+								hitbox_maxs = [ 10.054956, 1.413948, 11.560711 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "199_joint_LeftSkirtB4"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -10.953001, -17.161861, -2.902035 ]
+								hitbox_maxs = [ 7.938909, 1.085304, 8.479218 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "205_joint_LeftSkirtC4"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.731272, -14.539242, -2.586996 ]
+								hitbox_maxs = [ 13.241215, 3.092373, 12.480759 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "211_joint_LeftSkirtD4"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.461151, -15.140884, -5.791727 ]
+								hitbox_maxs = [ 9.835417, 1.137421, 8.460602 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "217_joint_LeftSkirtE4"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.469282, -14.716396, -7.276196 ]
+								hitbox_maxs = [ 11.152557, 2.53183, 13.741198 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "223_joint_LeftSkirtF4"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.144772, -16.321239, -6.597436 ]
+								hitbox_maxs = [ 9.734806, 1.102909, 8.724229 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "229_joint_LeftSkirtG4"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.745895, -15.306362, -12.543455 ]
+								hitbox_maxs = [ 13.348633, 2.807438, 5.768797 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "235_joint_LeftSkirtH4"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.229973, -15.750851, -9.984067 ]
+								hitbox_maxs = [ 10.019606, 1.142788, 5.201779 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "241_joint_LeftSkirtI4"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.410027, -14.964508, -12.615997 ]
+								hitbox_maxs = [ 14.628246, 2.847668, 2.173576 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "247_joint_LeftSkirtJ4"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -8.810253, -15.9645, -9.528423 ]
+								hitbox_maxs = [ 8.692059, 1.102509, 2.392818 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "253_joint_hisashisuka_toK4"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -9.762409, -15.187252, -10.829208 ]
+								hitbox_maxs = [ 9.872646, 2.612671, -0.504826 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "259_joint_RightSkirtB4"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -7.828662, -16.266632, -2.902035 ]
+								hitbox_maxs = [ 10.683526, 1.085304, 8.479218 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "265_joint_RightSkirtC4"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -13.130968, -14.539242, -2.586992 ]
+								hitbox_maxs = [ 5.841516, 3.092373, 12.480762 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "271_joint_RightSkirtD4"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -9.725174, -15.140884, -5.791721 ]
+								hitbox_maxs = [ 5.571398, 1.137421, 8.460608 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "277_joint_RightSkirtE4"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -11.042315, -14.716396, -7.276189 ]
+								hitbox_maxs = [ 0.579529, 2.53183, 13.741204 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "283_joint_RightSkirtF4"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -9.624559, -16.321239, -6.59743 ]
+								hitbox_maxs = [ 2.255022, 1.102909, 8.724235 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "289_joint_RightSkirtG4"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -13.238394, -15.306362, -12.543447 ]
+								hitbox_maxs = [ 0.856138, 2.807438, 5.768805 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "295_joint_RightSkirtH4"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -9.909372, -15.750851, -9.984059 ]
+								hitbox_maxs = [ 5.34021, 1.142788, 5.201786 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "301_joint_RightSkirtI4"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -14.518009, -14.964508, -13.789505 ]
+								hitbox_maxs = [ 16.121981, 2.847668, 2.17358 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "21_joint_Tongue2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.710909, -0.510048, -1.912882 ]
+								hitbox_maxs = [ 1.710909, 1.754395, 0.301786 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "127_joint_RightFrontHair2_1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.050241, -13.475098, -2.589035 ]
+								hitbox_maxs = [ 2.340587, -0.76297, 3.695267 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "130_joint_LeftFrontHair2_2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.00758, -15.506226, -2.804765 ]
+								hitbox_maxs = [ 1.154028, -0.329498, 2.70327 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "133_joint_RightFrontHair3_1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.671447, -14.256165, -1.589318 ]
+								hitbox_maxs = [ 1.90815, 2.136932, 1.93952 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "135_joint_LeftFrontHair4_1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.718261, -16.088989, -2.649705 ]
+								hitbox_maxs = [ 5.858827, 1.450256, 2.910336 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "137_joint_RightFrontHair4_1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.736068, -15.933929, -3.454865 ]
+								hitbox_maxs = [ 0.515491, -0.708099, 3.038426 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "139_joint_LeftFrontHair5_1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.325118, -20.171631, -1.356256 ]
+								hitbox_maxs = [ 4.938669, -0.146606, 10.140407 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "145_joint_RightBackHair1_2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.965033, -19.354462, -11.335114 ]
+								hitbox_maxs = [ 3.001153, -1.320854, 1.199892 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "148_joint_RightBackHair2_2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.660115, -23.095428, -9.941973 ]
+								hitbox_maxs = [ 2.968225, 1.209442, 3.313771 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "151_joint_RightBackHair3_2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.237523, -20.900841, -7.845545 ]
+								hitbox_maxs = [ 4.559495, 1.442383, 2.320973 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "155_joint_RightBackHair4_3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.373332, -20.130157, -4.123483 ]
+								hitbox_maxs = [ 4.939392, 1.843994, 3.645947 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "158_joint_RightBackHair5_2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -14.417906, -24.874939, -12.739162 ]
+								hitbox_maxs = [ 4.322088, 0.917603, 1.976032 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "161_joint_RightBackHair6_2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.842801, -24.708145, -8.266094 ]
+								hitbox_maxs = [ 1.992097, 0.777924, 0.826175 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "164_joint_LeftBackHair1_2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.890913, -19.354462, -11.335114 ]
+								hitbox_maxs = [ 4.075272, -1.320854, 1.199892 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "167_joint_LeftBackHair2_2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.857986, -23.095428, -9.941973 ]
+								hitbox_maxs = [ 5.770354, 1.209442, 3.313771 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "170_joint_LeftBackHair3_2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -4.449255, -20.900841, -7.845545 ]
+								hitbox_maxs = [ 5.347762, 1.442383, 2.320973 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "174_joint_LeftBackHair4_3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -4.829153, -20.130157, -4.123483 ]
+								hitbox_maxs = [ 5.483573, 1.843994, 3.645947 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "177_joint_LeftBackHair5_2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -4.211849, -24.874939, -12.739162 ]
+								hitbox_maxs = [ 14.528147, 0.917603, 1.976032 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "180_joint_LeftBackHair6_2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.881857, -24.708145, -8.266094 ]
+								hitbox_maxs = [ 3.953041, 0.777924, 0.826175 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "40_joint_RightThumb1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.789017, -1.804916, -0.73804 ]
+								hitbox_maxs = [ 0.949368, 0.503487, 0.831667 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "44_joint_RightPinky2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.303753, -0.968956, -0.495933 ]
+								hitbox_maxs = [ 0.297585, 0.514198, 0.383502 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "48_joint_RightRing2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.569122, -1.096962, -0.556851 ]
+								hitbox_maxs = [ 0.305046, 0.534088, 0.387067 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "52_joint_RightMiddle2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.511219, -1.04715, -0.561474 ]
+								hitbox_maxs = [ 0.501118, 0.653801, 0.397855 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "56_joint_RightIndex2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.581284, -1.106285, -0.559501 ]
+								hitbox_maxs = [ 0.298943, 0.530411, 0.394252 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "346_joint_head"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -4.125755, -0.605057, -3.614795 ]
+								hitbox_maxs = [ 4.235992, 7.672478, 3.571505 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "352_joint_tail4"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.562889, -0.578712, -3.532101 ]
+								hitbox_maxs = [ 0.67312, 0.577576, -0.157575 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "76_joint_LeftThumb1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.839104, -1.804878, -0.738036 ]
+								hitbox_maxs = [ 1.899277, 0.503494, 0.831671 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "80_joint_LeftPinky2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.187336, -0.96904, -0.495933 ]
+								hitbox_maxs = [ 1.414005, 0.514114, 0.383502 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "84_joint_LeftRing2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.194794, -1.097023, -0.556851 ]
+								hitbox_maxs = [ 1.679352, 0.534019, 0.387066 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "88_joint_LeftMiddle2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.190739, -1.16935, -0.573235 ]
+								hitbox_maxs = [ 1.821583, 0.531578, 0.386094 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "92_joint_LeftIndex2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.188686, -1.106277, -0.559502 ]
+								hitbox_maxs = [ 1.691532, 0.530418, 0.394252 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "318_joint_ribonmigihimo6"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -9.648251, -18.302814, -8.765537 ]
+								hitbox_maxs = [ 5.313607, -4.734978, 0.218037 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "328_joint_ribonhidarihimo6"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.203368, -18.302814, -8.765537 ]
+								hitbox_maxs = [ 9.758492, -4.734978, 0.218037 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "110_joint_migiashisakiEX"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -4.64517, -3.987057, -5.809721 ]
+								hitbox_maxs = [ 3.169432, 2.209458, 3.198494 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "99_joint_RightFoot"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.329747, -7.324803, -7.925206 ]
+								hitbox_maxs = [ 3.169434, 5.58853, 9.613015 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "115_joint_hidariashisakiEX"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.932352, -3.92505, -5.804321 ]
+								hitbox_maxs = [ 4.703793, 2.272825, 3.200292 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "104_joint_LeftFoot"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.932416, -7.2628, -7.926946 ]
+								hitbox_maxs = [ 5.364909, 5.588547, 9.614698 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "194_joint_hisashisuka_toA5"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -10.17829, -11.907902, 4.014477 ]
+								hitbox_maxs = [ 10.288539, -3.958111, 12.6633 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "200_joint_LeftSkirtB5"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -9.78113, -18.490002, -1.866341 ]
+								hitbox_maxs = [ 14.401827, -10.886204, 10.415821 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "206_joint_LeftSkirtC5"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -6.862078, -12.03685, 0.332762 ]
+								hitbox_maxs = [ 16.459635, -3.494205, 15.704266 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "212_joint_LeftSkirtD5"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -7.119661, -17.994781, -10.129456 ]
+								hitbox_maxs = [ 12.311958, -9.631966, 10.189705 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "218_joint_LeftSkirtE5"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 2.976074, -13.191879, -10.925646 ]
+								hitbox_maxs = [ 15.5471, -4.876751, 15.190083 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "224_joint_LeftSkirtF5"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 0.975567, -17.827816, -11.692376 ]
+								hitbox_maxs = [ 11.766884, -9.996555, 10.5736 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "230_joint_LeftSkirtG5"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 2.547943, -13.390667, -15.930742 ]
+								hitbox_maxs = [ 16.362553, -4.173904, 7.226987 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "236_joint_LeftSkirtH5"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.923512, -19.237137, -10.847363 ]
+								hitbox_maxs = [ 10.700718, -10.322086, 9.154892 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "242_joint_LeftSkirtI5"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -7.378267, -12.249645, -13.576614 ]
+								hitbox_maxs = [ 17.110323, -4.277149, 0.474566 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "248_joint_LeftSkirtJ5"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -10.548204, -18.005711, -8.395042 ]
+								hitbox_maxs = [ 14.830452, -10.610802, 2.176733 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "254_joint_hisashisuka_toK5"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -11.063718, -10.357201, -10.305389 ]
+								hitbox_maxs = [ 11.173955, -4.251976, -1.529305 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "260_joint_RightSkirtB5"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -14.291578, -18.490002, -1.866341 ]
+								hitbox_maxs = [ 9.891378, -10.886204, 10.415821 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "266_joint_RightSkirtC5"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -16.34939, -12.03685, 0.332766 ]
+								hitbox_maxs = [ 6.972326, -3.494205, 15.704269 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "272_joint_RightSkirtD5"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -12.201714, -17.994781, -10.129448 ]
+								hitbox_maxs = [ 7.22991, -9.631966, 10.189713 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "278_joint_RightSkirtE5"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -15.436855, -13.191879, -10.925636 ]
+								hitbox_maxs = [ -2.865829, -4.876751, 15.190092 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "284_joint_RightSkirtF5"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -11.656639, -17.827816, -11.692369 ]
+								hitbox_maxs = [ -0.865322, -9.996555, 10.573607 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "290_joint_RightSkirtG5"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -16.252312, -13.390667, -15.930733 ]
+								hitbox_maxs = [ -2.437702, -4.173904, 7.226997 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "296_joint_RightSkirtH5"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -10.590488, -19.237137, -10.847355 ]
+								hitbox_maxs = [ 4.033745, -10.322086, 9.1549 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "302_joint_RightSkirtI5"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -17.000093, -12.249645, -14.966564 ]
+								hitbox_maxs = [ 20.717646, -4.277149, 0.474569 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "16_joint_migimemodo"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.572506, -1.95961, 0.65299 ]
+								hitbox_maxs = [ 0.630292, 2.071266, 1.759884 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "18_joint_hidarimemodo"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.612074, -1.95961, 0.65299 ]
+								hitbox_maxs = [ 2.62928, 2.071266, 1.657243 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "22_joint_Tongue3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.838958, -0.155304, -0.031171 ]
+								hitbox_maxs = [ 0.838958, 0.244896, 0.310227 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "123_joint_FrontHairMiddle1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.822948, -7.955292, -1.518052 ]
+								hitbox_maxs = [ 2.154696, -0.528748, 1.03901 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "124_joint_FrontHairMiddle2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.350733, -8.147919, -1.787721 ]
+								hitbox_maxs = [ 1.894669, -0.430481, 0.977372 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "125_joint_RightFrontHair1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.497414, -7.830078, -1.247421 ]
+								hitbox_maxs = [ 2.082471, -0.598083, 1.131463 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "126_joint_LeftFrontHair1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.145301, -8.602753, -1.354325 ]
+								hitbox_maxs = [ 1.671219, -0.731232, 1.831651 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "128_joint_RightFrontHair2_2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.050241, -10.59433, -2.303956 ]
+								hitbox_maxs = [ 2.771095, -1.054718, 3.48146 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "131_joint_LeftFrontHair2_3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.00758, -11.542053, -2.77009 ]
+								hitbox_maxs = [ 0.911323, 0.069244, 2.449972 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "132_joint_LeftFrontHair3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.908956, -9.971069, -1.171327 ]
+								hitbox_maxs = [ 1.152102, -1.183624, 1.457002 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "134_joint_RightFrontHair3_2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.242479, -8.793304, -0.582872 ]
+								hitbox_maxs = [ 1.90815, -0.921814, 1.676588 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "136_joint_LeftFrontHair4_2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.151373, -9.200714, -1.117395 ]
+								hitbox_maxs = [ 2.314575, -0.659851, 4.181645 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "138_joint_RightFrontHair4_2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.191816, -9.045654, -2.122888 ]
+								hitbox_maxs = [ 1.90526, -0.277496, 4.309735 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "140_joint_LeftFrontHair5_2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.699091, -10.625153, -1.276308 ]
+								hitbox_maxs = [ -0.298344, 0.629791, 8.21419 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "141_joint_RightFrontHair5_1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -4.828431, -16.113983, -1.002542 ]
+								hitbox_maxs = [ 0.547657, -0.152344, 6.402821 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "142_joint_RightFrontHair6"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.153003, -15.176697, -1.5346 ]
+								hitbox_maxs = [ -0.139429, -3.393005, 3.954167 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "143_joint_LeftFrontHair6"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 0.249669, -15.176697, -1.5346 ]
+								hitbox_maxs = [ 3.263242, -3.393005, 3.954167 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "146_joint_RightBackHair1_3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.222018, -12.088989, -6.217567 ]
+								hitbox_maxs = [ 3.744167, 0.141914, 3.666428 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "149_joint_RightBackHair2_3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -4.252114, -13.981323, -6.101968 ]
+								hitbox_maxs = [ 3.845259, 1.005432, 2.8268 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "152_joint_RightBackHair3_3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.237523, -12.788414, -4.421541 ]
+								hitbox_maxs = [ 4.559495, 0.814728, 3.639924 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "156_joint_RightBackHair4_4"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.563124, -13.021782, -3.138856 ]
+								hitbox_maxs = [ 6.854665, -0.243073, 3.455811 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "159_joint_RightBackHair5_3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -8.3795, -15.453979, -6.232439 ]
+								hitbox_maxs = [ 3.981576, 1.775642, 3.734373 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "162_joint_RightBackHair6_3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.842801, -15.447556, -3.178179 ]
+								hitbox_maxs = [ 1.799107, 1.290596, 3.905251 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "165_joint_LeftBackHair1_3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.633928, -12.088989, -6.217567 ]
+								hitbox_maxs = [ 3.332257, 0.141914, 3.666428 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "168_joint_LeftBackHair2_3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.735019, -13.981323, -6.101968 ]
+								hitbox_maxs = [ 4.362353, 1.005432, 2.8268 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "171_joint_LeftBackHair3_3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -4.449255, -12.788414, -4.421541 ]
+								hitbox_maxs = [ 5.347762, 0.814728, 3.639924 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "175_joint_LeftBackHair4_4"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -6.744426, -13.021782, -3.138856 ]
+								hitbox_maxs = [ 1.673365, -0.243073, 3.455811 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "178_joint_LeftBackHair5_3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.871337, -15.453979, -6.232439 ]
+								hitbox_maxs = [ 8.489741, 1.775642, 3.734373 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "181_joint_LeftBackHair6_3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.688867, -15.447556, -3.178179 ]
+								hitbox_maxs = [ 3.953041, 1.290596, 3.905251 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "183_joint_hidariribon"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.688863, -0.677856, -7.481192 ]
+								hitbox_maxs = [ 11.710757, 22.302261, 1.104321 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "185_joint_migiribon"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -22.937176, -4.211502, -7.481196 ]
+								hitbox_maxs = [ -0.579971, 8.772476, 1.104319 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "27_joint_RightArmTwist"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -8.09193, -6.873695, -2.331196 ]
+								hitbox_maxs = [ -3.111032, -0.866257, 2.585208 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "32_joint_RightHandTwist"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -7.376053, -4.726456, -2.247066 ]
+								hitbox_maxs = [ -1.522308, -0.042542, 2.378384 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "41_joint_RightThumb2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.635902, -1.34169, -0.487868 ]
+								hitbox_maxs = [ 0.435265, 0.519615, 0.689944 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "45_joint_RightPinky3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.241131, -0.801376, -0.470898 ]
+								hitbox_maxs = [ 0.287014, 0.417824, 0.358363 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "49_joint_RightRing3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.297192, -0.930656, -0.51069 ]
+								hitbox_maxs = [ 0.296223, 0.429207, 0.362431 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "53_joint_RightMiddle3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.852654, -0.667191, -0.48364 ]
+								hitbox_maxs = [ 0.752811, 0.711388, 0.394668 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "57_joint_RightIndex3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.278843, -0.91082, -0.514263 ]
+								hitbox_maxs = [ 0.297802, 0.430061, 0.370528 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "39_joint_RightThumb0"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.618073, -2.494339, -0.252367 ]
+								hitbox_maxs = [ -0.137348, -0.329292, 1.544645 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "33_joint_RightHandTwist1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 1.174393, -0.920761, -1.982496 ]
+								hitbox_maxs = [ 3.00293, 3.012222, 2.480893 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "34_joint_RightHandTwist2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 1.541849, -0.323265, -1.890931 ]
+								hitbox_maxs = [ 3.209383, 3.009735, 2.256501 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "35_joint_RightHandTwist3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 1.675259, 0.167786, -1.835243 ]
+								hitbox_maxs = [ 3.162592, 2.829865, 1.899153 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "28_joint_RightArmTwist1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.660785, -2.949921, -2.660223 ]
+								hitbox_maxs = [ 1.19963, 2.402016, 2.751743 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "29_joint_RightArmTwist2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.241274, -2.60981, -2.505692 ]
+								hitbox_maxs = [ 1.46236, 2.313927, 2.649116 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "30_joint_RightArmTwist3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.050301, -2.239441, -2.381965 ]
+								hitbox_maxs = [ 1.540289, 2.245041, 2.543266 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "347_joint_ear_L"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.972239, -1.974556, -1.610674 ]
+								hitbox_maxs = [ 2.710423, 2.999382, 1.962788 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "348_joint_ear_R"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.600185, -1.974556, -1.610672 ]
+								hitbox_maxs = [ 2.082479, 2.999382, 1.962791 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "353_joint_tail5"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.552435, -0.578712, -2.855061 ]
+								hitbox_maxs = [ 0.662666, 0.577576, 1.107416 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "354_joint_hand_L"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.984798, -1.879501, -1.920466 ]
+								hitbox_maxs = [ 4.789047, 1.928932, 1.960828 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "355_joint_hand_R"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -4.678806, -1.879501, -1.920464 ]
+								hitbox_maxs = [ 2.095039, 1.92894, 1.96083 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "356_joint_leg_L"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.882654, -4.902405, -2.664989 ]
+								hitbox_maxs = [ 1.923637, 1.962486, 1.989264 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "357_joint_leg_R"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.813396, -4.902405, -2.664989 ]
+								hitbox_maxs = [ 3.992895, 1.962486, 1.989266 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "63_joint_LeftArmTwist"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 3.221272, -6.873779, -2.331196 ]
+								hitbox_maxs = [ 8.202188, -0.866325, 2.585207 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "68_joint_LeftHandTwist"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 1.632542, -4.726448, -2.247066 ]
+								hitbox_maxs = [ 7.486301, -0.042542, 2.378382 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "77_joint_LeftThumb2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.324993, -1.341644, -0.487864 ]
+								hitbox_maxs = [ 1.746193, 0.519623, 0.689949 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "81_joint_LeftPinky3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.176758, -0.801445, -0.470898 ]
+								hitbox_maxs = [ 1.351387, 0.417755, 0.358363 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "85_joint_LeftRing3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.18597, -0.930626, -0.51069 ]
+								hitbox_maxs = [ 1.407429, 0.429245, 0.36243 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "89_joint_LeftMiddle3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.193676, -0.943306, -0.51514 ]
+								hitbox_maxs = [ 1.411797, 0.435303, 0.363168 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "93_joint_LeftIndex3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.187557, -0.910881, -0.514263 ]
+								hitbox_maxs = [ 1.389099, 0.430008, 0.370527 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "75_joint_LeftThumb0"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 0.247616, -2.494331, -0.252363 ]
+								hitbox_maxs = [ 2.728355, -0.329285, 1.544648 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "69_joint_LeftHandTwist1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.892664, -0.920761, -1.982495 ]
+								hitbox_maxs = [ -1.064121, 3.012222, 2.480893 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "70_joint_LeftHandTwist2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.099133, -0.323257, -1.890931 ]
+								hitbox_maxs = [ -1.431599, 3.009735, 2.256501 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "71_joint_LeftHandTwist3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -3.052349, 0.167816, -1.835243 ]
+								hitbox_maxs = [ -1.565014, 2.829872, 1.899153 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "64_joint_LeftArmTwist1"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.0894, -2.949913, -2.660221 ]
+								hitbox_maxs = [ 0.771018, 2.402039, 2.751746 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "65_joint_LeftArmTwist2"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.352108, -2.609711, -2.505697 ]
+								hitbox_maxs = [ 0.351519, 2.314011, 2.649109 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "66_joint_LeftArmTwist3"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.430054, -2.239426, -2.381955 ]
+								hitbox_maxs = [ 0.160536, 2.245071, 2.54327 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "311_joint_ribonmigi"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -22.151583, -15.979889, -18.685749 ]
+								hitbox_maxs = [ 1.104927, 4.336052, -1.833344 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "319_joint_ribonmigihimo7"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -8.056046, -12.050215, -5.645969 ]
+								hitbox_maxs = [ 5.418425, -4.049664, 0.554623 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "321_joint_ribonhidari"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.994688, -15.979889, -18.685749 ]
+								hitbox_maxs = [ 22.261824, 4.336052, -1.833344 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "329_joint_ribonhidarihimo7"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.308184, -12.050215, -5.645969 ]
+								hitbox_maxs = [ 8.166286, -4.049664, 0.554623 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "331_joint_otsu_ichousei"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -12.877522, -50.121117, -10.659763 ]
+								hitbox_maxs = [ 12.987761, -19.523766, 4.833373 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "2_joint_Center"
+								surface_property = ""
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -2.0, -2.0, -2.0 ]
+								hitbox_maxs = [ 2.0, 2.0, 2.0 ]
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "ellen"
+						filename = "models/ellen/ellen.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "IDLE1"
+						activity_name = "ACT_DOTA_IDLE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/ellen/IDLE1.FBX"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 240
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "RUN1"
+						children = 
+						[
+							{
+								_class = "ExtractMotion"
+								extract_tx = true
+								extract_ty = true
+								extract_tz = false
+								extract_rz = false
+								linear = false
+								quadratic = false
+								root_bone_name = ""
+								motion_type = "Single"
+							},
+						]
+						activity_name = "ACT_DOTA_RUN"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/ellen/RUN1.FBX"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 120
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "ATTACK1"
+						children = 
+						[
+							{
+								_class = "ExtractMotion"
+								extract_tx = true
+								extract_ty = true
+								extract_tz = false
+								extract_rz = false
+								linear = false
+								quadratic = false
+								root_bone_name = ""
+								motion_type = "Single"
+							},
+						]
+						activity_name = "ACT_DOTA_ATTACK"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/ellen/ATTACK1.FBX"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 35
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "ATTACK2"
+						children = 
+						[
+							{
+								_class = "ExtractMotion"
+								extract_tx = true
+								extract_ty = true
+								extract_tz = false
+								extract_rz = false
+								linear = false
+								quadratic = false
+								root_bone_name = ""
+								motion_type = "Single"
+							},
+						]
+						activity_name = "ACT_DOTA_ATTACK2"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/ellen/ATTACK2.FBX"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 35
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "CAST_BLINDMAGIC"
+						activity_name = "ACT_DOTA_CAST_ABILITY_1"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/ellen/CAST BLINDMAGIC.FBX"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 35
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "CAST_TRAPSET"
+						activity_name = "ACT_DOTA_CAST_ABILITY_2"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/ellen/CAST TRAPSET.FBX"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 50
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "CAST_HEALING"
+						activity_name = "ACT_DOTA_CAST_ABILITY_3"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/ellen/CAST HEALING.FBX"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 50
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "castcharge"
+						activity_name = "ACT_DOTA_CAST_ABILITY_4"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/ellen/castcharge.FBX"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 160
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "castresolve"
+						activity_name = "ACT_DOTA_CAST_ABILITY_4_END"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/ellen/castresolve.FBX"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 40
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "disabled1"
+						activity_name = "ACT_DOTA_DISABLED"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/ellen/disabled1.FBX"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 55
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "flail1"
+						activity_name = "ACT_DOTA_FLAIL"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/ellen/flail1.FBX"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 55
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "die1"
+						children = 
+						[
+							{
+								_class = "ExtractMotion"
+								extract_tx = true
+								extract_ty = true
+								extract_tz = false
+								extract_rz = false
+								linear = false
+								quadratic = false
+								root_bone_name = ""
+								motion_type = "Single"
+							},
+						]
+						activity_name = "ACT_DOTA_DIE"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/ellen/die1.FBX"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 110
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "loadout"
+						activity_name = "ACT_DOTA_SPAWN"
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "models/ellen/loadout.FBX"
+						import_bone_scales = false
+						start_frame = 0
+						end_frame = 140
+						framerate = 30.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		importer_notes = """
+Imported from VMDL
+==Warnings==
+Changed incompatible hitbox parent bone name '95.joint_HipMaster' to '95_joint_HipMaster'
+Changed incompatible hitbox parent bone name '11.joint_Torso' to '11_joint_Torso'
+Changed incompatible hitbox parent bone name '12.joint_Torso2' to '12_joint_Torso2'
+Changed incompatible hitbox parent bone name '24.joint_RightShoulder' to '24_joint_RightShoulder'
+Changed incompatible hitbox parent bone name '26.joint_RightArm' to '26_joint_RightArm'
+Changed incompatible hitbox parent bone name '60.joint_LeftShoulder' to '60_joint_LeftShoulder'
+Changed incompatible hitbox parent bone name '313.joint_ribonmigihimo1' to '313_joint_ribonmigihimo1'
+Changed incompatible hitbox parent bone name '323.joint_ribonhidarihimo1' to '323_joint_ribonhidarihimo1'
+Changed incompatible hitbox parent bone name '13.joint_Neck' to '13_joint_Neck'
+Changed incompatible hitbox parent bone name '345.joint_body' to '345_joint_body'
+Changed incompatible hitbox parent bone name '62.joint_LeftArm' to '62_joint_LeftArm'
+Changed incompatible hitbox parent bone name '314.joint_ribonmigihimo2' to '314_joint_ribonmigihimo2'
+Changed incompatible hitbox parent bone name '324.joint_ribonhidarihimo2' to '324_joint_ribonhidarihimo2'
+Changed incompatible hitbox parent bone name '190.joint_hisashisuka^toA1' to '190_joint_hisashisuka_toA1'
+Changed incompatible hitbox parent bone name '196.joint_LeftSkirtB1' to '196_joint_LeftSkirtB1'
+Changed incompatible hitbox parent bone name '202.joint_LeftSkirtC1' to '202_joint_LeftSkirtC1'
+Changed incompatible hitbox parent bone name '208.joint_LeftSkirtD1' to '208_joint_LeftSkirtD1'
+Changed incompatible hitbox parent bone name '214.joint_LeftSkirtE1' to '214_joint_LeftSkirtE1'
+Changed incompatible hitbox parent bone name '220.joint_LeftSkirtF1' to '220_joint_LeftSkirtF1'
+Changed incompatible hitbox parent bone name '226.joint_LeftSkirtG1' to '226_joint_LeftSkirtG1'
+Changed incompatible hitbox parent bone name '232.joint_LeftSkirtH1' to '232_joint_LeftSkirtH1'
+Changed incompatible hitbox parent bone name '238.joint_LeftSkirtI1' to '238_joint_LeftSkirtI1'
+Changed incompatible hitbox parent bone name '244.joint_LeftSkirtJ1' to '244_joint_LeftSkirtJ1'
+Changed incompatible hitbox parent bone name '250.joint_hisashisuka^toK1' to '250_joint_hisashisuka_toK1'
+Changed incompatible hitbox parent bone name '256.joint_RightSkirtB1' to '256_joint_RightSkirtB1'
+Changed incompatible hitbox parent bone name '262.joint_RightSkirtC1' to '262_joint_RightSkirtC1'
+Changed incompatible hitbox parent bone name '268.joint_RightSkirtD1' to '268_joint_RightSkirtD1'
+Changed incompatible hitbox parent bone name '274.joint_RightSkirtE1' to '274_joint_RightSkirtE1'
+Changed incompatible hitbox parent bone name '280.joint_RightSkirtF1' to '280_joint_RightSkirtF1'
+Changed incompatible hitbox parent bone name '286.joint_RightSkirtG1' to '286_joint_RightSkirtG1'
+Changed incompatible hitbox parent bone name '292.joint_RightSkirtH1' to '292_joint_RightSkirtH1'
+Changed incompatible hitbox parent bone name '298.joint_RightSkirtI1' to '298_joint_RightSkirtI1'
+Changed incompatible hitbox parent bone name '14.joint_Head' to '14_joint_Head'
+Changed incompatible hitbox parent bone name '31.joint_RightElbow' to '31_joint_RightElbow'
+Changed incompatible hitbox parent bone name '349.joint_tail1' to '349_joint_tail1'
+Changed incompatible hitbox parent bone name '67.joint_LeftElbow' to '67_joint_LeftElbow'
+Changed incompatible hitbox parent bone name '315.joint_ribonmigihimo3' to '315_joint_ribonmigihimo3'
+Changed incompatible hitbox parent bone name '325.joint_ribonhidarihimo3' to '325_joint_ribonhidarihimo3'
+Changed incompatible hitbox parent bone name '191.joint_hisashisuka^toA2' to '191_joint_hisashisuka_toA2'
+Changed incompatible hitbox parent bone name '197.joint_LeftSkirtB2' to '197_joint_LeftSkirtB2'
+Changed incompatible hitbox parent bone name '203.joint_LeftSkirtC2' to '203_joint_LeftSkirtC2'
+Changed incompatible hitbox parent bone name '209.joint_LeftSkirtD2' to '209_joint_LeftSkirtD2'
+Changed incompatible hitbox parent bone name '215.joint_LeftSkirtE2' to '215_joint_LeftSkirtE2'
+Changed incompatible hitbox parent bone name '221.joint_LeftSkirtF2' to '221_joint_LeftSkirtF2'
+Changed incompatible hitbox parent bone name '227.joint_LeftSkirtG2' to '227_joint_LeftSkirtG2'
+Changed incompatible hitbox parent bone name '233.joint_LeftSkirtH2' to '233_joint_LeftSkirtH2'
+Changed incompatible hitbox parent bone name '239.joint_LeftSkirtI2' to '239_joint_LeftSkirtI2'
+Changed incompatible hitbox parent bone name '245.joint_LeftSkirtJ2' to '245_joint_LeftSkirtJ2'
+Changed incompatible hitbox parent bone name '251.joint_hisashisuka^toK2' to '251_joint_hisashisuka_toK2'
+Changed incompatible hitbox parent bone name '257.joint_RightSkirtB2' to '257_joint_RightSkirtB2'
+Changed incompatible hitbox parent bone name '263.joint_RightSkirtC2' to '263_joint_RightSkirtC2'
+Changed incompatible hitbox parent bone name '269.joint_RightSkirtD2' to '269_joint_RightSkirtD2'
+Changed incompatible hitbox parent bone name '275.joint_RightSkirtE2' to '275_joint_RightSkirtE2'
+Changed incompatible hitbox parent bone name '281.joint_RightSkirtF2' to '281_joint_RightSkirtF2'
+Changed incompatible hitbox parent bone name '287.joint_RightSkirtG2' to '287_joint_RightSkirtG2'
+Changed incompatible hitbox parent bone name '293.joint_RightSkirtH2' to '293_joint_RightSkirtH2'
+Changed incompatible hitbox parent bone name '299.joint_RightSkirtI2' to '299_joint_RightSkirtI2'
+Changed incompatible hitbox parent bone name '153.joint_RightBackHair4-1' to '153_joint_RightBackHair4_1'
+Changed incompatible hitbox parent bone name '172.joint_LeftBackHair4-1' to '172_joint_LeftBackHair4_1'
+Changed incompatible hitbox parent bone name '36.joint_RightWrist' to '36_joint_RightWrist'
+Changed incompatible hitbox parent bone name '350.joint_tail2' to '350_joint_tail2'
+Changed incompatible hitbox parent bone name '72.joint_LeftWrist' to '72_joint_LeftWrist'
+Changed incompatible hitbox parent bone name '316.joint_ribonmigihimo4' to '316_joint_ribonmigihimo4'
+Changed incompatible hitbox parent bone name '326.joint_ribonhidarihimo4' to '326_joint_ribonhidarihimo4'
+Changed incompatible hitbox parent bone name '97.joint_RightHip' to '97_joint_RightHip'
+Changed incompatible hitbox parent bone name '102.joint_LeftHip' to '102_joint_LeftHip'
+Changed incompatible hitbox parent bone name '192.joint_hisashisuka^toA3' to '192_joint_hisashisuka_toA3'
+Changed incompatible hitbox parent bone name '198.joint_LeftSkirtB3' to '198_joint_LeftSkirtB3'
+Changed incompatible hitbox parent bone name '204.joint_LeftSkirtC3' to '204_joint_LeftSkirtC3'
+Changed incompatible hitbox parent bone name '210.joint_LeftSkirtD3' to '210_joint_LeftSkirtD3'
+Changed incompatible hitbox parent bone name '216.joint_LeftSkirtE3' to '216_joint_LeftSkirtE3'
+Changed incompatible hitbox parent bone name '222.joint_LeftSkirtF3' to '222_joint_LeftSkirtF3'
+Changed incompatible hitbox parent bone name '228.joint_LeftSkirtG3' to '228_joint_LeftSkirtG3'
+Changed incompatible hitbox parent bone name '234.joint_LeftSkirtH3' to '234_joint_LeftSkirtH3'
+Changed incompatible hitbox parent bone name '240.joint_LeftSkirtI3' to '240_joint_LeftSkirtI3'
+Changed incompatible hitbox parent bone name '246.joint_LeftSkirtJ3' to '246_joint_LeftSkirtJ3'
+Changed incompatible hitbox parent bone name '252.joint_hisashisuka^toK3' to '252_joint_hisashisuka_toK3'
+Changed incompatible hitbox parent bone name '258.joint_RightSkirtB3' to '258_joint_RightSkirtB3'
+Changed incompatible hitbox parent bone name '264.joint_RightSkirtC3' to '264_joint_RightSkirtC3'
+Changed incompatible hitbox parent bone name '270.joint_RightSkirtD3' to '270_joint_RightSkirtD3'
+Changed incompatible hitbox parent bone name '276.joint_RightSkirtE3' to '276_joint_RightSkirtE3'
+Changed incompatible hitbox parent bone name '282.joint_RightSkirtF3' to '282_joint_RightSkirtF3'
+Changed incompatible hitbox parent bone name '288.joint_RightSkirtG3' to '288_joint_RightSkirtG3'
+Changed incompatible hitbox parent bone name '294.joint_RightSkirtH3' to '294_joint_RightSkirtH3'
+Changed incompatible hitbox parent bone name '300.joint_RightSkirtI3' to '300_joint_RightSkirtI3'
+Changed incompatible hitbox parent bone name '20.joint_Tongue1' to '20_joint_Tongue1'
+Changed incompatible hitbox parent bone name '129.joint_LeftFrontHair2-1' to '129_joint_LeftFrontHair2_1'
+Changed incompatible hitbox parent bone name '144.joint_RightBackHair1-1' to '144_joint_RightBackHair1_1'
+Changed incompatible hitbox parent bone name '147.joint_RightBackHair2-1' to '147_joint_RightBackHair2_1'
+Changed incompatible hitbox parent bone name '150.joint_RightBackHair3-1' to '150_joint_RightBackHair3_1'
+Changed incompatible hitbox parent bone name '154.joint_RightBackHair4-2' to '154_joint_RightBackHair4_2'
+Changed incompatible hitbox parent bone name '157.joint_RightBackHair5-1' to '157_joint_RightBackHair5_1'
+Changed incompatible hitbox parent bone name '160.joint_RightBackHair6-1' to '160_joint_RightBackHair6_1'
+Changed incompatible hitbox parent bone name '163.joint_LeftBackHair1-1' to '163_joint_LeftBackHair1_1'
+Changed incompatible hitbox parent bone name '166.joint_LeftBackHair2-1' to '166_joint_LeftBackHair2_1'
+Changed incompatible hitbox parent bone name '169.joint_LeftBackHair3-1' to '169_joint_LeftBackHair3_1'
+Changed incompatible hitbox parent bone name '173.joint_LeftBackHair4-2' to '173_joint_LeftBackHair4_2'
+Changed incompatible hitbox parent bone name '176.joint_LeftBackHair5-1' to '176_joint_LeftBackHair5_1'
+Changed incompatible hitbox parent bone name '179.joint_LeftBackHair6-1' to '179_joint_LeftBackHair6_1'
+Changed incompatible hitbox parent bone name '43.joint_RightPinky1' to '43_joint_RightPinky1'
+Changed incompatible hitbox parent bone name '47.joint_RightRing1' to '47_joint_RightRing1'
+Changed incompatible hitbox parent bone name '51.joint_RightMiddle1' to '51_joint_RightMiddle1'
+Changed incompatible hitbox parent bone name '55.joint_RightIndex1' to '55_joint_RightIndex1'
+Changed incompatible hitbox parent bone name '351.joint_tail3' to '351_joint_tail3'
+Changed incompatible hitbox parent bone name '79.joint_LeftPinky1' to '79_joint_LeftPinky1'
+Changed incompatible hitbox parent bone name '83.joint_LeftRing1' to '83_joint_LeftRing1'
+Changed incompatible hitbox parent bone name '87.joint_LeftMiddle1' to '87_joint_LeftMiddle1'
+Changed incompatible hitbox parent bone name '91.joint_LeftIndex1' to '91_joint_LeftIndex1'
+Changed incompatible hitbox parent bone name '317.joint_ribonmigihimo5' to '317_joint_ribonmigihimo5'
+Changed incompatible hitbox parent bone name '327.joint_ribonhidarihimo5' to '327_joint_ribonhidarihimo5'
+Changed incompatible hitbox parent bone name '98.joint_RightKnee' to '98_joint_RightKnee'
+Changed incompatible hitbox parent bone name '103.joint_LeftKnee' to '103_joint_LeftKnee'
+Changed incompatible hitbox parent bone name '193.joint_hisashisuka^toA4' to '193_joint_hisashisuka_toA4'
+Changed incompatible hitbox parent bone name '199.joint_LeftSkirtB4' to '199_joint_LeftSkirtB4'
+Changed incompatible hitbox parent bone name '205.joint_LeftSkirtC4' to '205_joint_LeftSkirtC4'
+Changed incompatible hitbox parent bone name '211.joint_LeftSkirtD4' to '211_joint_LeftSkirtD4'
+Changed incompatible hitbox parent bone name '217.joint_LeftSkirtE4' to '217_joint_LeftSkirtE4'
+Changed incompatible hitbox parent bone name '223.joint_LeftSkirtF4' to '223_joint_LeftSkirtF4'
+Changed incompatible hitbox parent bone name '229.joint_LeftSkirtG4' to '229_joint_LeftSkirtG4'
+Changed incompatible hitbox parent bone name '235.joint_LeftSkirtH4' to '235_joint_LeftSkirtH4'
+Changed incompatible hitbox parent bone name '241.joint_LeftSkirtI4' to '241_joint_LeftSkirtI4'
+Changed incompatible hitbox parent bone name '247.joint_LeftSkirtJ4' to '247_joint_LeftSkirtJ4'
+Changed incompatible hitbox parent bone name '253.joint_hisashisuka^toK4' to '253_joint_hisashisuka_toK4'
+Changed incompatible hitbox parent bone name '259.joint_RightSkirtB4' to '259_joint_RightSkirtB4'
+Changed incompatible hitbox parent bone name '265.joint_RightSkirtC4' to '265_joint_RightSkirtC4'
+Changed incompatible hitbox parent bone name '271.joint_RightSkirtD4' to '271_joint_RightSkirtD4'
+Changed incompatible hitbox parent bone name '277.joint_RightSkirtE4' to '277_joint_RightSkirtE4'
+Changed incompatible hitbox parent bone name '283.joint_RightSkirtF4' to '283_joint_RightSkirtF4'
+Changed incompatible hitbox parent bone name '289.joint_RightSkirtG4' to '289_joint_RightSkirtG4'
+Changed incompatible hitbox parent bone name '295.joint_RightSkirtH4' to '295_joint_RightSkirtH4'
+Changed incompatible hitbox parent bone name '301.joint_RightSkirtI4' to '301_joint_RightSkirtI4'
+Changed incompatible hitbox parent bone name '21.joint_Tongue2' to '21_joint_Tongue2'
+Changed incompatible hitbox parent bone name '127.joint_RightFrontHair2-1' to '127_joint_RightFrontHair2_1'
+Changed incompatible hitbox parent bone name '130.joint_LeftFrontHair2-2' to '130_joint_LeftFrontHair2_2'
+Changed incompatible hitbox parent bone name '133.joint_RightFrontHair3-1' to '133_joint_RightFrontHair3_1'
+Changed incompatible hitbox parent bone name '135.joint_LeftFrontHair4-1' to '135_joint_LeftFrontHair4_1'
+Changed incompatible hitbox parent bone name '137.joint_RightFrontHair4-1' to '137_joint_RightFrontHair4_1'
+Changed incompatible hitbox parent bone name '139.joint_LeftFrontHair5-1' to '139_joint_LeftFrontHair5_1'
+Changed incompatible hitbox parent bone name '145.joint_RightBackHair1-2' to '145_joint_RightBackHair1_2'
+Changed incompatible hitbox parent bone name '148.joint_RightBackHair2-2' to '148_joint_RightBackHair2_2'
+Changed incompatible hitbox parent bone name '151.joint_RightBackHair3-2' to '151_joint_RightBackHair3_2'
+Changed incompatible hitbox parent bone name '155.joint_RightBackHair4-3' to '155_joint_RightBackHair4_3'
+Changed incompatible hitbox parent bone name '158.joint_RightBackHair5-2' to '158_joint_RightBackHair5_2'
+Changed incompatible hitbox parent bone name '161.joint_RightBackHair6-2' to '161_joint_RightBackHair6_2'
+Changed incompatible hitbox parent bone name '164.joint_LeftBackHair1-2' to '164_joint_LeftBackHair1_2'
+Changed incompatible hitbox parent bone name '167.joint_LeftBackHair2-2' to '167_joint_LeftBackHair2_2'
+Changed incompatible hitbox parent bone name '170.joint_LeftBackHair3-2' to '170_joint_LeftBackHair3_2'
+Changed incompatible hitbox parent bone name '174.joint_LeftBackHair4-3' to '174_joint_LeftBackHair4_3'
+Changed incompatible hitbox parent bone name '177.joint_LeftBackHair5-2' to '177_joint_LeftBackHair5_2'
+Changed incompatible hitbox parent bone name '180.joint_LeftBackHair6-2' to '180_joint_LeftBackHair6_2'
+Changed incompatible hitbox parent bone name '40.joint_RightThumb1' to '40_joint_RightThumb1'
+Changed incompatible hitbox parent bone name '44.joint_RightPinky2' to '44_joint_RightPinky2'
+Changed incompatible hitbox parent bone name '48.joint_RightRing2' to '48_joint_RightRing2'
+Changed incompatible hitbox parent bone name '52.joint_RightMiddle2' to '52_joint_RightMiddle2'
+Changed incompatible hitbox parent bone name '56.joint_RightIndex2' to '56_joint_RightIndex2'
+Changed incompatible hitbox parent bone name '346.joint_head' to '346_joint_head'
+Changed incompatible hitbox parent bone name '352.joint_tail4' to '352_joint_tail4'
+Changed incompatible hitbox parent bone name '76.joint_LeftThumb1' to '76_joint_LeftThumb1'
+Changed incompatible hitbox parent bone name '80.joint_LeftPinky2' to '80_joint_LeftPinky2'
+Changed incompatible hitbox parent bone name '84.joint_LeftRing2' to '84_joint_LeftRing2'
+Changed incompatible hitbox parent bone name '88.joint_LeftMiddle2' to '88_joint_LeftMiddle2'
+Changed incompatible hitbox parent bone name '92.joint_LeftIndex2' to '92_joint_LeftIndex2'
+Changed incompatible hitbox parent bone name '318.joint_ribonmigihimo6' to '318_joint_ribonmigihimo6'
+Changed incompatible hitbox parent bone name '328.joint_ribonhidarihimo6' to '328_joint_ribonhidarihimo6'
+Changed incompatible hitbox parent bone name '110.joint_migiashisakiEX' to '110_joint_migiashisakiEX'
+Changed incompatible hitbox parent bone name '99.joint_RightFoot' to '99_joint_RightFoot'
+Changed incompatible hitbox parent bone name '115.joint_hidariashisakiEX' to '115_joint_hidariashisakiEX'
+Changed incompatible hitbox parent bone name '104.joint_LeftFoot' to '104_joint_LeftFoot'
+Changed incompatible hitbox parent bone name '194.joint_hisashisuka^toA5' to '194_joint_hisashisuka_toA5'
+Changed incompatible hitbox parent bone name '200.joint_LeftSkirtB5' to '200_joint_LeftSkirtB5'
+Changed incompatible hitbox parent bone name '206.joint_LeftSkirtC5' to '206_joint_LeftSkirtC5'
+Changed incompatible hitbox parent bone name '212.joint_LeftSkirtD5' to '212_joint_LeftSkirtD5'
+Changed incompatible hitbox parent bone name '218.joint_LeftSkirtE5' to '218_joint_LeftSkirtE5'
+Changed incompatible hitbox parent bone name '224.joint_LeftSkirtF5' to '224_joint_LeftSkirtF5'
+Changed incompatible hitbox parent bone name '230.joint_LeftSkirtG5' to '230_joint_LeftSkirtG5'
+Changed incompatible hitbox parent bone name '236.joint_LeftSkirtH5' to '236_joint_LeftSkirtH5'
+Changed incompatible hitbox parent bone name '242.joint_LeftSkirtI5' to '242_joint_LeftSkirtI5'
+Changed incompatible hitbox parent bone name '248.joint_LeftSkirtJ5' to '248_joint_LeftSkirtJ5'
+Changed incompatible hitbox parent bone name '254.joint_hisashisuka^toK5' to '254_joint_hisashisuka_toK5'
+Changed incompatible hitbox parent bone name '260.joint_RightSkirtB5' to '260_joint_RightSkirtB5'
+Changed incompatible hitbox parent bone name '266.joint_RightSkirtC5' to '266_joint_RightSkirtC5'
+Changed incompatible hitbox parent bone name '272.joint_RightSkirtD5' to '272_joint_RightSkirtD5'
+Changed incompatible hitbox parent bone name '278.joint_RightSkirtE5' to '278_joint_RightSkirtE5'
+Changed incompatible hitbox parent bone name '284.joint_RightSkirtF5' to '284_joint_RightSkirtF5'
+Changed incompatible hitbox parent bone name '290.joint_RightSkirtG5' to '290_joint_RightSkirtG5'
+Changed incompatible hitbox parent bone name '296.joint_RightSkirtH5' to '296_joint_RightSkirtH5'
+Changed incompatible hitbox parent bone name '302.joint_RightSkirtI5' to '302_joint_RightSkirtI5'
+Changed incompatible hitbox parent bone name '16.joint_migimemodo' to '16_joint_migimemodo'
+Changed incompatible hitbox parent bone name '18.joint_hidarimemodo' to '18_joint_hidarimemodo'
+Changed incompatible hitbox parent bone name '22.joint_Tongue3' to '22_joint_Tongue3'
+Changed incompatible hitbox parent bone name '123.joint_FrontHairMiddle1' to '123_joint_FrontHairMiddle1'
+Changed incompatible hitbox parent bone name '124.joint_FrontHairMiddle2' to '124_joint_FrontHairMiddle2'
+Changed incompatible hitbox parent bone name '125.joint_RightFrontHair1' to '125_joint_RightFrontHair1'
+Changed incompatible hitbox parent bone name '126.joint_LeftFrontHair1' to '126_joint_LeftFrontHair1'
+Changed incompatible hitbox parent bone name '128.joint_RightFrontHair2-2' to '128_joint_RightFrontHair2_2'
+Changed incompatible hitbox parent bone name '131.joint_LeftFrontHair2-3' to '131_joint_LeftFrontHair2_3'
+Changed incompatible hitbox parent bone name '132.joint_LeftFrontHair3' to '132_joint_LeftFrontHair3'
+Changed incompatible hitbox parent bone name '134.joint_RightFrontHair3-2' to '134_joint_RightFrontHair3_2'
+Changed incompatible hitbox parent bone name '136.joint_LeftFrontHair4-2' to '136_joint_LeftFrontHair4_2'
+Changed incompatible hitbox parent bone name '138.joint_RightFrontHair4-2' to '138_joint_RightFrontHair4_2'
+Changed incompatible hitbox parent bone name '140.joint_LeftFrontHair5-2' to '140_joint_LeftFrontHair5_2'
+Changed incompatible hitbox parent bone name '141.joint_RightFrontHair5-1' to '141_joint_RightFrontHair5_1'
+Changed incompatible hitbox parent bone name '142.joint_RightFrontHair6' to '142_joint_RightFrontHair6'
+Changed incompatible hitbox parent bone name '143.joint_LeftFrontHair6' to '143_joint_LeftFrontHair6'
+Changed incompatible hitbox parent bone name '146.joint_RightBackHair1-3' to '146_joint_RightBackHair1_3'
+Changed incompatible hitbox parent bone name '149.joint_RightBackHair2-3' to '149_joint_RightBackHair2_3'
+Changed incompatible hitbox parent bone name '152.joint_RightBackHair3-3' to '152_joint_RightBackHair3_3'
+Changed incompatible hitbox parent bone name '156.joint_RightBackHair4-4' to '156_joint_RightBackHair4_4'
+Changed incompatible hitbox parent bone name '159.joint_RightBackHair5-3' to '159_joint_RightBackHair5_3'
+Changed incompatible hitbox parent bone name '162.joint_RightBackHair6-3' to '162_joint_RightBackHair6_3'
+Changed incompatible hitbox parent bone name '165.joint_LeftBackHair1-3' to '165_joint_LeftBackHair1_3'
+Changed incompatible hitbox parent bone name '168.joint_LeftBackHair2-3' to '168_joint_LeftBackHair2_3'
+Changed incompatible hitbox parent bone name '171.joint_LeftBackHair3-3' to '171_joint_LeftBackHair3_3'
+Changed incompatible hitbox parent bone name '175.joint_LeftBackHair4-4' to '175_joint_LeftBackHair4_4'
+Changed incompatible hitbox parent bone name '178.joint_LeftBackHair5-3' to '178_joint_LeftBackHair5_3'
+Changed incompatible hitbox parent bone name '181.joint_LeftBackHair6-3' to '181_joint_LeftBackHair6_3'
+Changed incompatible hitbox parent bone name '183.joint_hidariribon' to '183_joint_hidariribon'
+Changed incompatible hitbox parent bone name '185.joint_migiribon' to '185_joint_migiribon'
+Changed incompatible hitbox parent bone name '27.joint_RightArmTwist' to '27_joint_RightArmTwist'
+Changed incompatible hitbox parent bone name '32.joint_RightHandTwist' to '32_joint_RightHandTwist'
+Changed incompatible hitbox parent bone name '41.joint_RightThumb2' to '41_joint_RightThumb2'
+Changed incompatible hitbox parent bone name '45.joint_RightPinky3' to '45_joint_RightPinky3'
+Changed incompatible hitbox parent bone name '49.joint_RightRing3' to '49_joint_RightRing3'
+Changed incompatible hitbox parent bone name '53.joint_RightMiddle3' to '53_joint_RightMiddle3'
+Changed incompatible hitbox parent bone name '57.joint_RightIndex3' to '57_joint_RightIndex3'
+Changed incompatible hitbox parent bone name '39.joint_RightThumb0' to '39_joint_RightThumb0'
+Changed incompatible hitbox parent bone name '33.joint_RightHandTwist1' to '33_joint_RightHandTwist1'
+Changed incompatible hitbox parent bone name '34.joint_RightHandTwist2' to '34_joint_RightHandTwist2'
+Changed incompatible hitbox parent bone name '35.joint_RightHandTwist3' to '35_joint_RightHandTwist3'
+Changed incompatible hitbox parent bone name '28.joint_RightArmTwist1' to '28_joint_RightArmTwist1'
+Changed incompatible hitbox parent bone name '29.joint_RightArmTwist2' to '29_joint_RightArmTwist2'
+Changed incompatible hitbox parent bone name '30.joint_RightArmTwist3' to '30_joint_RightArmTwist3'
+Changed incompatible hitbox parent bone name '347.joint_ear.L' to '347_joint_ear_L'
+Changed incompatible hitbox parent bone name '348.joint_ear.R' to '348_joint_ear_R'
+Changed incompatible hitbox parent bone name '353.joint_tail5' to '353_joint_tail5'
+Changed incompatible hitbox parent bone name '354.joint_hand.L' to '354_joint_hand_L'
+Changed incompatible hitbox parent bone name '355.joint_hand.R' to '355_joint_hand_R'
+Changed incompatible hitbox parent bone name '356.joint_leg.L' to '356_joint_leg_L'
+Changed incompatible hitbox parent bone name '357.joint_leg.R' to '357_joint_leg_R'
+Changed incompatible hitbox parent bone name '63.joint_LeftArmTwist' to '63_joint_LeftArmTwist'
+Changed incompatible hitbox parent bone name '68.joint_LeftHandTwist' to '68_joint_LeftHandTwist'
+Changed incompatible hitbox parent bone name '77.joint_LeftThumb2' to '77_joint_LeftThumb2'
+Changed incompatible hitbox parent bone name '81.joint_LeftPinky3' to '81_joint_LeftPinky3'
+Changed incompatible hitbox parent bone name '85.joint_LeftRing3' to '85_joint_LeftRing3'
+Changed incompatible hitbox parent bone name '89.joint_LeftMiddle3' to '89_joint_LeftMiddle3'
+Changed incompatible hitbox parent bone name '93.joint_LeftIndex3' to '93_joint_LeftIndex3'
+Changed incompatible hitbox parent bone name '75.joint_LeftThumb0' to '75_joint_LeftThumb0'
+Changed incompatible hitbox parent bone name '69.joint_LeftHandTwist1' to '69_joint_LeftHandTwist1'
+Changed incompatible hitbox parent bone name '70.joint_LeftHandTwist2' to '70_joint_LeftHandTwist2'
+Changed incompatible hitbox parent bone name '71.joint_LeftHandTwist3' to '71_joint_LeftHandTwist3'
+Changed incompatible hitbox parent bone name '64.joint_LeftArmTwist1' to '64_joint_LeftArmTwist1'
+Changed incompatible hitbox parent bone name '65.joint_LeftArmTwist2' to '65_joint_LeftArmTwist2'
+Changed incompatible hitbox parent bone name '66.joint_LeftArmTwist3' to '66_joint_LeftArmTwist3'
+Changed incompatible hitbox parent bone name '311.joint_ribonmigi' to '311_joint_ribonmigi'
+Changed incompatible hitbox parent bone name '319.joint_ribonmigihimo7' to '319_joint_ribonmigihimo7'
+Changed incompatible hitbox parent bone name '321.joint_ribonhidari' to '321_joint_ribonhidari'
+Changed incompatible hitbox parent bone name '329.joint_ribonhidarihimo7' to '329_joint_ribonhidarihimo7'
+Changed incompatible hitbox parent bone name '331.joint_otsu_ichousei' to '331_joint_otsu_ichousei'
+Changed incompatible hitbox parent bone name '2.joint_Center' to '2_joint_Center'
+Changed incompatible bone name '12.joint_Torso2' to '12_joint_Torso2'
+Changed incompatible bone name '72.joint_LeftWrist' to '72_joint_LeftWrist'
+Changed incompatible bone name '36.joint_RightWrist' to '36_joint_RightWrist'
+Changed incompatible animation name 'CAST BLINDMAGIC' to 'CAST_BLINDMAGIC'
+Changed incompatible animation name 'CAST TRAPSET' to 'CAST_TRAPSET'
+Changed incompatible animation name 'CAST HEALING' to 'CAST_HEALING'
+
+"""
+	}
+}
