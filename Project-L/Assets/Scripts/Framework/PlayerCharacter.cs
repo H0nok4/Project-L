@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Skill;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
 
@@ -19,10 +20,15 @@ public class PlayerCharacter : Entity
     public Quaternion LookPosition;
 
     public CharacterState CharacterState;
+
+    public List<SkillBase> NormalAttacks;
+
+    public SkillManager SkillMananger;
     void OnEnable()
     {
         //TODO:³õÊ¼Îª´ý»ú×´Ì¬
         Animator = GetComponentInChildren<Animator>();
+        SkillMananger = GetComponent<SkillManager>();
         Idle();
     }
 
@@ -99,12 +105,36 @@ public class PlayerCharacter : Entity
 
     }
 
-    private void Update()
+    private void UseNormalAttack()
     {
-        GetInput();
+        if (NormalAttacks.Count == 0)
+        {
+            return;
+        }
+
+        if (SkillMananger.RunningSkill)
+        {
+            return;
+        }
+
+        SkillMananger.PlaySkill(NormalAttacks[0]);
     }
 
-    private void GetInput()
+    private void Update()
+    {
+        GetMoveInput();
+        GetAttackInput();
+    }
+
+    private void GetAttackInput()
+    {
+        if (Input.GetKey(KeyBinding.AttackKeyCode))
+        {
+            UseNormalAttack();
+        }
+    }
+
+    private void GetMoveInput()
     {
         float leftOrRight = 0f;
         float upOrDown = 0f;

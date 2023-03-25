@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d902f7f808fb1b747b995811c2d28a80, type: 3}
+  m_Name: NormalAttack
+  m_EditorClassIdentifier: 
+  Type: 0
+  TotalTime: 1
+  Events:
+  - Trigged: 1
+    TriggerTime: 0
+    Events:
+    - {fileID: 1483125572970459919, guid: 703f358dbf3ff294ba50654d63872004, type: 3}
+  - Trigged: 1
+    TriggerTime: 0.5
+    Events:
+    - {fileID: 2399495654231050244, guid: faf84569f5bd2874cbd06498e40b2f66, type: 3}
+  - Trigged: 1
+    TriggerTime: 1
+    Events:
+    - {fileID: 8629476059005752823, guid: 54db1874a12448447a336b4cd81a7d59, type: 3}
