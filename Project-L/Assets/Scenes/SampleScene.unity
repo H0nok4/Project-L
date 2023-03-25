@@ -196,7 +196,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28fa1845bc2b00744a04d912b03aaa11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Type: 7
   LogString: "\u57280.5s\u8F93\u51FA\u8FD9\u6761\u65E5\u5FD7"
 --- !u!4 &138498281
 Transform:
@@ -244,7 +243,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28fa1845bc2b00744a04d912b03aaa11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Type: 7
   LogString: "\u64AD\u653E\u52A8\u753B\u7684\u540C\u65F6\u8F93\u51FA\u8FD9\u6761\u65E5\u5FD7"
 --- !u!114 &267938486
 MonoBehaviour:
@@ -258,7 +256,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 531720acaf62b69468fad0d4ad00b13d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Type: 0
   AnimationName: Attack
 --- !u!4 &267938487
 Transform:
@@ -287,7 +284,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc6e95d6f1b83548b0bf549dd970793, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Type: 2
   SelectType: 0
   SquareSelectRangeType: 0
   CubeSelectRangeType: 0
@@ -653,7 +649,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 531720acaf62b69468fad0d4ad00b13d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Type: 0
   AnimationName: Idle
 --- !u!4 &585933400
 Transform:
@@ -682,7 +677,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28fa1845bc2b00744a04d912b03aaa11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Type: 7
   LogString: "\u64AD\u653E\u5F85\u673A\u52A8\u753B\u65F6\u8F93\u51FA\u65E5\u5FD7"
 --- !u!114 &585933402
 MonoBehaviour:
@@ -696,7 +690,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc6e95d6f1b83548b0bf549dd970793, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Type: 0
   SelectType: 0
   SquareSelectRangeType: 0
   CubeSelectRangeType: 0
