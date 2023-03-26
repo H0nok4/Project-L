@@ -7,17 +7,25 @@ namespace Skill
 {
     public class SelectTarget : SkillActionBase
     {
-        public SelectTargetType SelectType;
+        public Type SelectType;
 
-        [ShowIf("SelectType", SelectTargetType.Square)]
-        public SelectRangeOffsetType SquareSelectRangeType;
-        [ShowIf("SelectType", SelectTargetType.CubeRange)]
-        public SelectRangeOffsetType CubeSelectRangeType;
-        [ShowIf("SelectType", SelectTargetType.SphereRange)]
-        public SelectRangeOffsetType SphereRangeType;
-        public enum SelectTargetType {
-            self,
-            Square,
+        public SelectTargetEntityType EntityType;
+
+        [ShowIf("@this.SelectType != Type.Self")]
+        public SelectRangeOffsetType SelectRangeType;
+
+        [ShowIf("@this.SelectType != Type.Self")]
+        public Vector3 OffsetCenterPosition;
+
+        [ShowIf("@this.SelectType != Type.Self && this.SelectType != Type.SquareRange")]
+        public float RangeLength;
+
+        [ShowIf("@this.SelectType != Type.Self && this.SelectType == Type.SquareRange")]
+        public Vector3 SquareSize;
+
+        public enum Type {
+            Self,
+            SquareRange,
             CubeRange,
             SphereRange,
         }
@@ -27,6 +35,10 @@ namespace Skill
             /// 从自身为中心内点开始
             /// </summary>
             FromSelf,
+            /// <summary>
+            /// 从自身正前方为基准的偏移点为中心点
+            /// </summary>
+            ForwardSelf,
             /// <summary>
             /// 从自身附近的偏移位置为中心点开始
             /// </summary>
@@ -39,6 +51,15 @@ namespace Skill
             /// 跟随当前鼠标选中位置开始
             /// </summary>
             FromMouseInputPosition
+        }
+        
+        public enum SelectTargetEntityType
+        {
+            Enemy,
+            Friendly,
+            Same,
+            Diff,
+            All
         }
 
     }

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Skill;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class SkillManager : MonoBehaviour
@@ -108,7 +109,7 @@ public class SkillManager : MonoBehaviour
             {
                 switch (selectTargetAction.SelectType)
                 {
-                    case Skill.SelectTarget.SelectTargetType.self:
+                    case Skill.SelectTarget.Type.Self:
                         if (SelectTarget == null)
                         {
                             SelectTarget = new List<Transform>();
@@ -119,9 +120,63 @@ public class SkillManager : MonoBehaviour
                         }
                         SelectTarget.Add(this.transform);
                         break;
-                    case Skill.SelectTarget.SelectTargetType.SphereRange:
-                    case Skill.SelectTarget.SelectTargetType.Square:
-                    case Skill.SelectTarget.SelectTargetType.CubeRange:
+                    case Skill.SelectTarget.Type.SphereRange:
+                    case Skill.SelectTarget.Type.SquareRange:
+                    case Skill.SelectTarget.Type.CubeRange:
+                        if (SelectTarget == null) {
+                            SelectTarget = new List<Transform>();
+                        }
+                        else {
+                            SelectTarget.Clear();
+                        }
+
+                        switch (selectTargetAction.SelectRangeType) {
+                            case Skill.SelectTarget.SelectRangeOffsetType.FromSelf:
+                                var hits = Physics.OverlapBox(this.transform.position, new Vector3(selectTargetAction.RangeLength, selectTargetAction.RangeLength, selectTargetAction.RangeLength));
+                                foreach (var hit in hits)
+                                {
+                                    var entity = hit.GetComponent<Entity>();
+                                    if (entity != null)
+                                    {
+                                        switch (selectTargetAction.EntityType)
+                                        {
+                                            case Skill.SelectTarget.SelectTargetEntityType.Enemy:
+                                                if (entity is Enemy)
+                                                {
+                                                    SelectTarget.Add(entity.transform);
+                                                }
+                                                break;
+                                            case Skill.SelectTarget.SelectTargetEntityType.Friendly:
+                                                if (entity is PlayerCharacter)
+                                                {
+                                                    SelectTarget.Add(entity.transform);
+                                                }
+                                                break;
+                                            case Skill.SelectTarget.SelectTargetEntityType.Same:
+                                                if (this.GetComponent<Entity>().GetType() == entity.GetType())
+                                                {
+                                                    SelectTarget.Add(entity.transform);
+                                                }
+                                                break;
+                                            case Skill.SelectTarget.SelectTargetEntityType.Diff:
+                                                if (this.GetComponent<Entity>().GetType() != entity.GetType()) {
+                                                    SelectTarget.Add(entity.transform);
+                                                }
+                                                break;
+                                                
+                                        }
+                                    }
+                                }
+                                break;
+                            case Skill.SelectTarget.SelectRangeOffsetType.ForwardSelf:
+                            case Skill.SelectTarget.SelectRangeOffsetType.FromOffsetSelf:
+                            case Skill.SelectTarget.SelectRangeOffsetType.FromMouseInputPosition:
+                            case Skill.SelectTarget.SelectRangeOffsetType.FromMouseSelectPosition:
+                            default:
+                                break;
+                        }
+
+
                         break;
                         
                 }

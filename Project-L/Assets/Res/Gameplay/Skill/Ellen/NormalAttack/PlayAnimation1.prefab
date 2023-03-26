@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 1483125572970459916}
   - component: {fileID: 1483125572970459907}
   - component: {fileID: 1483125572970459917}
-  - component: {fileID: 1483125572970459918}
   m_Layer: 0
   m_Name: PlayAnimation1
   m_TagString: Untagged
@@ -46,11 +45,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adc6e95d6f1b83548b0bf549dd970793, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Type: 2
   SelectType: 0
-  SquareSelectRangeType: 0
-  CubeSelectRangeType: 0
-  SphereRangeType: 0
+  SelectRangeType: 0
+  SphereRangeOffsetCenterPosition: {x: 0, y: 0, z: 0}
+  SphereRangeDiameter: 0
 --- !u!114 &1483125572970459917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63,19 +61,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 531720acaf62b69468fad0d4ad00b13d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Type: 0
   AnimationName: Attack
---- !u!114 &1483125572970459918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1483125572970459919}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28fa1845bc2b00744a04d912b03aaa11, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Type: 7
-  LogString: "\u64AD\u653E\u52A8\u753B\u7684\u540C\u65F6\u8F93\u51FA\u8FD9\u6761\u65E5\u5FD7"
