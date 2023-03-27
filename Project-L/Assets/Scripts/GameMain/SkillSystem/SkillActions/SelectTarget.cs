@@ -32,23 +32,23 @@ namespace Skill
 
         public enum SelectRangeOffsetType {
             /// <summary>
-            /// ������Ϊ�����ڵ㿪ʼ
+            /// 从自身为中心内点开始
             /// </summary>
             FromSelf,
             /// <summary>
-            /// ��������ǰ��Ϊ��׼��ƫ�Ƶ�Ϊ���ĵ�
+            /// 从自身正前方(0,0,1)为基准的偏移点为中心点
             /// </summary>
             ForwardSelf,
             /// <summary>
-            /// ������������ƫ��λ��Ϊ���ĵ㿪ʼ
+            /// 从自身附近的偏移位置为中心点开始
             /// </summary>
             FromOffsetSelf,
             /// <summary>
-            /// ��һ����������ѡȡ�㿪ʼ
+            /// 从一个储存的鼠标选取点开始
             /// </summary>
             FromMouseSelectPosition,
             /// <summary>
-            /// ���浱ǰ���ѡ��λ�ÿ�ʼ
+            /// 跟随当前鼠标选中位置开始
             /// </summary>
             FromMouseInputPosition
         }

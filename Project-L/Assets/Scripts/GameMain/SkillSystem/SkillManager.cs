@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using Skill;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -34,7 +35,7 @@ public class SkillManager : MonoBehaviour
                 continue;
             }
 
-            //µΩ ±º‰¡Àø…“‘¥•∑¢¡À
+            //Âà∞Êó∂Èó¥‰∫ÜÂèØ‰ª•Ëß¶Âèë‰∫Ü
             if (skillEvent.TriggerTime < time)
             {
                 List<SkillActionBase> skillAction = new List<SkillActionBase>();
@@ -62,7 +63,7 @@ public class SkillManager : MonoBehaviour
     }
     public void PlaySkill(SkillBase skillBase)
     {
-        Debug.Log("ø™ º Õ∑≈Skill");
+        Debug.Log("ÂºÄÂßãÈáäÊîæSkill");
         _runningTime = 0f;
         _runningSkillBase = skillBase;
         RunningSkill = true;
@@ -81,7 +82,9 @@ public class SkillManager : MonoBehaviour
 
     public void StopSkill()
     {
-
+        RunningSkill = false;
+        _runningSkillBase = null;
+        _runningTime = 0;
     }
 
     public void RunSkillAction(List<SkillActionBase> actions)
@@ -105,82 +108,87 @@ public class SkillManager : MonoBehaviour
                         }
                     }
                 }
-            }else if (action is SelectTarget selectTargetAction)
-            {
-                switch (selectTargetAction.SelectType)
-                {
-                    case Skill.SelectTarget.Type.Self:
-                        if (SelectTarget == null)
-                        {
-                            SelectTarget = new List<Transform>();
-                        }
-                        else
-                        {
-                            SelectTarget.Clear();
-                        }
-                        SelectTarget.Add(this.transform);
-                        break;
-                    case Skill.SelectTarget.Type.SphereRange:
-                    case Skill.SelectTarget.Type.SquareRange:
-                    case Skill.SelectTarget.Type.CubeRange:
-                        if (SelectTarget == null) {
-                            SelectTarget = new List<Transform>();
-                        }
-                        else {
-                            SelectTarget.Clear();
-                        }
+            }else if (action is SelectTarget selectTargetAction) {
 
-                        switch (selectTargetAction.SelectRangeType) {
-                            case Skill.SelectTarget.SelectRangeOffsetType.FromSelf:
-                                var hits = Physics.OverlapBox(this.transform.position, new Vector3(selectTargetAction.RangeLength, selectTargetAction.RangeLength, selectTargetAction.RangeLength));
-                                foreach (var hit in hits)
-                                {
-                                    var entity = hit.GetComponent<Entity>();
-                                    if (entity != null)
-                                    {
-                                        switch (selectTargetAction.EntityType)
-                                        {
-                                            case Skill.SelectTarget.SelectTargetEntityType.Enemy:
-                                                if (entity is Enemy)
-                                                {
-                                                    SelectTarget.Add(entity.transform);
-                                                }
-                                                break;
-                                            case Skill.SelectTarget.SelectTargetEntityType.Friendly:
-                                                if (entity is PlayerCharacter)
-                                                {
-                                                    SelectTarget.Add(entity.transform);
-                                                }
-                                                break;
-                                            case Skill.SelectTarget.SelectTargetEntityType.Same:
-                                                if (this.GetComponent<Entity>().GetType() == entity.GetType())
-                                                {
-                                                    SelectTarget.Add(entity.transform);
-                                                }
-                                                break;
-                                            case Skill.SelectTarget.SelectTargetEntityType.Diff:
-                                                if (this.GetComponent<Entity>().GetType() != entity.GetType()) {
-                                                    SelectTarget.Add(entity.transform);
-                                                }
-                                                break;
-                                                
-                                        }
-                                    }
+                SelectTarget = GetTargetByAction(selectTargetAction);
+
+            }
+        }
+
+        List<Transform> GetTargetByAction(SelectTarget selectAction) {
+            List<Transform> result = new List<Transform>();
+
+            if (selectAction.SelectType == Skill.SelectTarget.Type.Self) {
+                result.Add(this.transform);
+            }
+            else {
+                var hits = GetsHits(selectAction.SelectType, GetStartPosition(selectAction.SelectRangeType));
+                foreach (var hit in hits) {
+                    var entity = hit.GetComponent<Entity>();
+                    if (entity != null) {
+                        switch (selectAction.EntityType) {
+                            case Skill.SelectTarget.SelectTargetEntityType.Enemy:
+                                if (entity is Enemy) {
+                                    result.Add(entity.transform);
                                 }
                                 break;
-                            case Skill.SelectTarget.SelectRangeOffsetType.ForwardSelf:
-                            case Skill.SelectTarget.SelectRangeOffsetType.FromOffsetSelf:
-                            case Skill.SelectTarget.SelectRangeOffsetType.FromMouseInputPosition:
-                            case Skill.SelectTarget.SelectRangeOffsetType.FromMouseSelectPosition:
-                            default:
+                            case Skill.SelectTarget.SelectTargetEntityType.Friendly:
+                                if (entity is PlayerCharacter) {
+                                    result.Add(entity.transform);
+                                }
                                 break;
+                            case Skill.SelectTarget.SelectTargetEntityType.Same:
+                                if (this.GetComponent<Entity>().GetType() == entity.GetType()) {
+                                    result.Add(entity.transform);
+                                }
+                                break;
+                            case Skill.SelectTarget.SelectTargetEntityType.Diff:
+                                if (this.GetComponent<Entity>().GetType() != entity.GetType()) {
+                                    result.Add(entity.transform);
+                                }
+                                break;
+
                         }
-
-
-                        break;
-                        
+                    }
                 }
+            }
+
+
+            return result;
+
+            Vector3 GetStartPosition(Skill.SelectTarget.SelectRangeOffsetType offsetType) {
+                switch (offsetType) {
+                    case Skill.SelectTarget.SelectRangeOffsetType.FromSelf:
+                        return this.transform.position;
+                    case Skill.SelectTarget.SelectRangeOffsetType.ForwardSelf:
+                        var position = this.transform.position + (this.transform.forward + selectAction.OffsetCenterPosition);
+                        Debug.Log($"ForwardSelf Position = {position}");
+                        return position;
+                    case Skill.SelectTarget.SelectRangeOffsetType.FromMouseInputPosition:
+                        break;
+                    case Skill.SelectTarget.SelectRangeOffsetType.FromMouseSelectPosition:
+                        break;
+                    case Skill.SelectTarget.SelectRangeOffsetType.FromOffsetSelf:
+                        break;
+                }
+
+                return this.transform.position;
+            }
+
+            Collider[] GetsHits(Skill.SelectTarget.Type type,Vector3 position) {
+                switch (type) {
+                    case Skill.SelectTarget.Type.CubeRange:
+                        return Physics.OverlapBox(position, new Vector3(selectAction.RangeLength, selectAction.RangeLength, selectAction.RangeLength));
+                    case Skill.SelectTarget.Type.SphereRange:
+                        return Physics.OverlapSphere(position, selectAction.RangeLength);
+                    case Skill.SelectTarget.Type.SquareRange:
+                        return Physics.OverlapBox(position, selectAction.SquareSize); ;
+                }
+
+                return null;
             }
         }
     }
+
+
 }
