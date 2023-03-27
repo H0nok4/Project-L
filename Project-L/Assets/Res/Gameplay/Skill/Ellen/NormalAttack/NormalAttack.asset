@@ -20,10 +20,6 @@ MonoBehaviour:
     Events:
     - {fileID: 1483125572970459919, guid: 703f358dbf3ff294ba50654d63872004, type: 3}
   - Trigged: 1
-    TriggerTime: 0.5
-    Events:
-    - {fileID: 2399495654231050244, guid: faf84569f5bd2874cbd06498e40b2f66, type: 3}
-  - Trigged: 0
     TriggerTime: 0.75
     Events:
     - {fileID: 4965659452230432988, guid: 835df82b1735ae44f89df1701709f18a, type: 3}
