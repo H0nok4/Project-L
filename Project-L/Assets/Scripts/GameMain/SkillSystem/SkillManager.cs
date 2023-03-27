@@ -14,6 +14,8 @@ public class SkillManager : MonoBehaviour
 
     private SkillBase _runningSkillBase;
 
+    public Action OnRunningSkillEnd; 
+
     private void Update()
     {
         if (!RunningSkill)
@@ -73,18 +75,29 @@ public class SkillManager : MonoBehaviour
         }
     }
 
-    public void Exit()
+    public void Exit(bool complete)
     {
         RunningSkill = false;
         _runningSkillBase = null;
         _runningTime = 0;
+
+        if (complete)
+        {
+            OnRunningSkillEnd.Invoke();
+        }
+
     }
 
-    public void StopSkill()
+    public void StopSkill(bool complete)
     {
         RunningSkill = false;
         _runningSkillBase = null;
         _runningTime = 0;
+
+        if (complete)
+        {
+            OnRunningSkillEnd.Invoke();
+        }
     }
 
     public void RunSkillAction(List<SkillActionBase> actions)
@@ -114,6 +127,18 @@ public class SkillManager : MonoBehaviour
 
             }else if (action is MoveTo moveAction) {
 
+            }else if (action is DamageTarget damageTarget)
+            {
+                if (SelectTarget is {Count: > 0})
+                {
+                    foreach (var transform1 in SelectTarget)
+                    {
+                        if (transform1.GetComponent<Entity>() is { } entity)
+                        {
+                            entity.TakeDamage(damageTarget.DamageValue,this.transform);
+                        }
+                    }
+                }
             }
         }
 

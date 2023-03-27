@@ -10,6 +10,6 @@ namespace Skill {
     }
 
     public enum MoveDirection {
-
+        Forward
     }
 }
