@@ -112,6 +112,8 @@ public class SkillManager : MonoBehaviour
 
                 SelectTarget = GetTargetByAction(selectTargetAction);
 
+            }else if (action is MoveTo moveAction) {
+
             }
         }
 
