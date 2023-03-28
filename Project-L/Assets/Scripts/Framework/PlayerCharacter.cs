@@ -26,7 +26,7 @@ public class PlayerCharacter : Entity
     public SkillManager SkillMananger;
     void OnEnable()
     {
-        //TODO:³õÊ¼Îª´ı»ú×´Ì¬
+        //TODO:åˆå§‹ä¸ºå¾…æœºçŠ¶æ€
         Animator = GetComponentInChildren<Animator>();
         SkillMananger = GetComponent<SkillManager>();
         Idle();
@@ -59,7 +59,7 @@ public class PlayerCharacter : Entity
 
     public void RotateBody(){
         if (MoveVec.x < 0.2f && MoveVec.x > -0.2f && MoveVec.z < 0.2f && MoveVec.z > -0.2f) {
-            //ÒÆ¶¯ËÙ¶È²»¹»£¬²»Ğı×ª
+            //ç§»åŠ¨é€Ÿåº¦ä¸å¤Ÿï¼Œä¸æ—‹è½¬
             return;
         }
 
@@ -68,8 +68,14 @@ public class PlayerCharacter : Entity
 
     public void Move()
     {
+        if (SkillMananger.RunningSkill) {
+            RunBlendSpeed = 0;
+            Animator.SetFloat("Run", 0);
+            return;
+        }
+
         if (MoveVec.x < 0.2f && MoveVec.x > -0.2f && MoveVec.z < 0.2f && MoveVec.z > -0.2f) {
-            //ÒÆ¶¯ËÙ¶È²»¹»£¬²»ÒÆ¶¯
+            //ç§»åŠ¨é€Ÿåº¦ä¸å¤Ÿï¼Œä¸ç§»åŠ¨
             if (RunBlendSpeed > 0)
             {
                 RunBlendSpeed -= Time.deltaTime * 5f;
@@ -101,6 +107,8 @@ public class PlayerCharacter : Entity
 
             base.transform.Translate(Vector3.forward * Time.deltaTime * State.CurMoveSpeed);
         }
+
+
         Animator.SetFloat("Run", RunBlendSpeed);
 
     }
@@ -136,6 +144,8 @@ public class PlayerCharacter : Entity
 
     private void GetMoveInput()
     {
+
+
         float leftOrRight = 0f;
         float upOrDown = 0f;
         if (Input.GetKey(KeyBinding.LeftKeyCode)) {

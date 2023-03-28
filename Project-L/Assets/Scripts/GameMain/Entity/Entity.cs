@@ -19,6 +19,8 @@ public class Entity : MonoBehaviour{
 
     public void TakeDamage(float damage,Transform sorce) {
         State.CurHP -= damage;
+        Debug.Log($"受到{damage}点伤害,来源为玩家:{sorce.GetComponent<Entity>() is PlayerCharacter}");
+
 
         if (State.CurHP < 0) {
             Die();

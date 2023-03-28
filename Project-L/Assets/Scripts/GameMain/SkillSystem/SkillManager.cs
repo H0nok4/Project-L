@@ -49,8 +49,6 @@ public class SkillManager : MonoBehaviour
                 RunSkillAction(skillAction);
                 skillEvent.Trigged = true;
             }
-
-
         }
 
         if (time > _runningSkillBase.TotalTime)
@@ -63,6 +61,7 @@ public class SkillManager : MonoBehaviour
     {
 
     }
+
     public void PlaySkill(SkillBase skillBase)
     {
         Debug.Log("开始释放Skill");
@@ -75,7 +74,7 @@ public class SkillManager : MonoBehaviour
         }
     }
 
-    public void Exit(bool complete)
+    public void Exit(bool complete = true)
     {
         RunningSkill = false;
         _runningSkillBase = null;
@@ -83,12 +82,12 @@ public class SkillManager : MonoBehaviour
 
         if (complete)
         {
-            OnRunningSkillEnd.Invoke();
+            OnRunningSkillEnd?.Invoke();
         }
 
     }
 
-    public void StopSkill(bool complete)
+    public void StopSkill(bool complete = false)
     {
         RunningSkill = false;
         _runningSkillBase = null;
@@ -96,7 +95,7 @@ public class SkillManager : MonoBehaviour
 
         if (complete)
         {
-            OnRunningSkillEnd.Invoke();
+            OnRunningSkillEnd?.Invoke();
         }
     }
 
