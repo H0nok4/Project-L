@@ -53,7 +53,7 @@ public class SkillManager : MonoBehaviour
 
         if (time > _runningSkillBase.TotalTime)
         {
-            Exit();
+            Exit(true);
         }
     }
 
